@@ -41,9 +41,8 @@ body {
 /* Start ex-one */
 .name {
   overflow: hidden;
-
 }
-.name h1{
+.name h1 {
   text-align: center;
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -69,7 +68,7 @@ body {
     border: #ffffff solid 10px;
   }
 }
-.name span{
+.name span {
   color: #267eb6;
   font-size: 70px;
   font-weight: bold;
@@ -2998,7 +2997,7 @@ button {
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
-  filter: drop-shadow( 0 0 20vmin #fff);
+  filter: drop-shadow(0 0 20vmin #fff);
 }
 .ex-26 .clothes {
   border-top: 30px solid #000;
@@ -3021,7 +3020,7 @@ button {
   background: #fff;
   width: 45px;
   height: 50px;
-  position:absolute;
+  position: absolute;
   bottom: 3px;
   transform: translate(-50%);
   border: 3px solid rgb(0, 0, 0);
@@ -3071,7 +3070,7 @@ button {
   height: 70px;
   border-radius: 50%;
   border: 2px solid;
-  border-BOTTOM-color: white;
+  border-bottom-color: white;
   border-top-color: white;
   z-index: 10;
   bottom: 67px;
@@ -3090,7 +3089,7 @@ button {
   height: 107px;
   border-radius: 50%;
   border: 2px solid;
-  border-BOTTOM-color: white;
+  border-bottom-color: white;
   z-index: 11;
   bottom: 97px;
 }
@@ -3337,8 +3336,14 @@ button {
 .ex-28 .a {
   width: 150px;
   height: 150px;
-  background: linear-gradient(to right, #000000 0%, #000000 18%, #F2F23A 18%, #F2F23A 100%);
-  border-radius: 0 100% 100% 0 ;
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #000000 18%,
+    #f2f23a 18%,
+    #f2f23a 100%
+  );
+  border-radius: 0 100% 100% 0;
   position: absolute;
   top: 35%;
   left: 46%;
@@ -3356,8 +3361,19 @@ button {
 .ex-28 .b {
   width: 150px;
   height: 150px;
-  background: linear-gradient(to right, #000000 0%, #000000 30%, #F2F23A 30%, #F2F23A 42%,#000 42%,#000 72%,#F2F23A 72%,#F2F23A 84%,#000000 84%);
-  border-radius: 100% 0 0 100% ;
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #000000 30%,
+    #f2f23a 30%,
+    #f2f23a 42%,
+    #000 42%,
+    #000 72%,
+    #f2f23a 72%,
+    #f2f23a 84%,
+    #000000 84%
+  );
+  border-radius: 100% 0 0 100%;
   position: absolute;
   top: 35%;
   left: 9%;
@@ -3389,8 +3405,8 @@ button {
   position: relative;
   overflow: hidden;
 }
-.ex-29 .a{
-  background: #5EBCFA;
+.ex-29 .a {
+  background: #5ebcfa;
   position: absolute;
   width: 70%;
   height: 15px;
@@ -3398,7 +3414,7 @@ button {
   top: 75%;
   z-index: 20;
 }
-.ex-29 .a::after{
+.ex-29 .a::after {
   content: "";
   background: #191919;
   position: absolute;
@@ -3408,34 +3424,34 @@ button {
   bottom: 95%;
   z-index: 10;
 }
-.ex-29 .b{
-  background: #5EBCFA;
+.ex-29 .b {
+  background: #5ebcfa;
   position: absolute;
   width: 50%;
-  height:15px;
+  height: 15px;
   left: 25%;
   top: 85%;
 }
-.ex-29 .c{
-  background: #5EBCFA;
+.ex-29 .c {
+  background: #5ebcfa;
   position: absolute;
   height: 35%;
   width: 15px;
   left: calc(50% - 7.5px);
   top: 40%;
 }
-.ex-29 .d{
+.ex-29 .d {
   position: absolute;
   height: 0px;
   width: 150px;
-  border-top: 15px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   left: 44%;
   transform: rotate(33deg);
   top: 47%;
 }
-.ex-29 .e{
+.ex-29 .e {
   content: "";
   position: absolute;
   background: #191919;
@@ -3446,19 +3462,19 @@ button {
   bottom: 64%;
   z-index: 15;
 }
-.ex-29 .f{
+.ex-29 .f {
   /* background: #0ba75c; */
   position: absolute;
   height: 0px;
   width: 150px;
-  border-top: 15px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   left: 18%;
   transform: rotate(328deg);
   top: 47%;
 }
-.ex-29 .g{
+.ex-29 .g {
   content: "";
   position: absolute;
   background: #191919;
@@ -3469,71 +3485,71 @@ button {
   bottom: 63.5%;
   z-index: 15;
 }
-.ex-29 .i{
+.ex-29 .i {
   position: absolute;
   height: 0px;
   width: 82px;
-  border-top: 15px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   transform: rotate(219deg);
   left: 75px;
   top: 194px;
-} 
-.ex-29 .j{
+}
+.ex-29 .j {
   position: absolute;
   height: 0px;
   width: 82px;
-  border-top: 15px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   transform: rotate(502.9deg);
   left: 240px;
   top: 194px;
-} 
-.ex-29 .k{
+}
+.ex-29 .k {
   position: absolute;
   height: 95px;
   width: 172px;
-  border-top: 15px solid #5EBCFA;
-  border-left: 20px solid #5EBCFA;
-  border-right: 20px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
+  border-left: 20px solid #5ebcfa;
+  border-right: 20px solid #5ebcfa;
   transform: rotate(0deg);
   left: 115px;
   top: 68px;
-} 
-.ex-29 .l{
+}
+.ex-29 .l {
   position: absolute;
   height: 52px;
   width: 98px;
-  border-top: 15px solid #5EBCFA;
-  border-left: 20px solid #5EBCFA;
-  border-right: 20px solid #5EBCFA;
+  border-top: 15px solid #5ebcfa;
+  border-left: 20px solid #5ebcfa;
+  border-right: 20px solid #5ebcfa;
   transform: rotate(0deg);
   left: 152px;
   top: 18px;
-} 
+}
 /* End ex-29 */
 /* Start ex-30 */
-.ex-30 .container{
+.ex-30 .container {
   background: #191919;
   position: relative;
   overflow: hidden;
 }
-.ex-30 .a{
+.ex-30 .a {
   width: 70px;
   height: 70px;
-  background: #5EBCFA;
+  background: #5ebcfa;
   position: absolute;
   top: calc(50% - 35px);
   left: 65px;
   border-radius: 15px;
 }
-.ex-30 .b{
+.ex-30 .b {
   width: 0px;
   height: 0px;
   border: 100px solid;
-  border-color: transparent #5EBCFA transparent transparent;
+  border-color: transparent #5ebcfa transparent transparent;
   position: absolute;
   top: calc(50% - 100px);
   left: -10px;
@@ -3545,7 +3561,7 @@ button {
   position: absolute;
   bottom: 50px;
   left: 209px;
-  border: solid 10px #5EBCF5;
+  border: solid 10px #5ebcf5;
   border-left: 0;
   border-radius: 0 100px 100px 0;
   z-index: 5;
@@ -3557,7 +3573,7 @@ button {
   position: absolute;
   bottom: 70px;
   left: 209px;
-  border: solid 10px #5EBCF5;
+  border: solid 10px #5ebcf5;
   border-left: 0;
   border-radius: 0 100px 100px 0;
   z-index: 8;
@@ -3569,9 +3585,744 @@ button {
   position: absolute;
   bottom: 90px;
   left: 209px;
-  border: solid 10px #5EBCF5;
+  border: solid 10px #5ebcf5;
   border-left: 0;
   border-radius: 0 100px 100px 0;
   z-index: 8;
 }
 /* End ex-30 */
+/* Start ex-31 */
+.ex-31 .container {
+  background: #293c7e;
+  position: relative;
+  overflow: hidden;
+}
+.ex-31 .a {
+  width: 200px;
+  height: 155px;
+  border: solid 20px #6E91C9;
+  border-bottom: 0;
+  border-radius: 100px 100px 0px 0px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+.ex-31 .b {
+  background: #6E91C9;
+  width: 58px;
+  height: 82px;
+  border-radius: 0px 60px 100px 100px;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+}
+.ex-31 .c {
+  background: #6E91C9;
+  width: 58px;
+  height: 82px;
+  border-radius: 60px 0px 100px 100px;
+  position: absolute;
+  top: 160px;
+  left: 242px;
+}
+/* End ex-31 */
+/* Start ex-32 */
+.ex-32 .container {
+  background: hsl(0deg 0% 9%);
+  position: relative;
+  overflow: hidden;
+}
+.ex-32 .a {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background: #871b13;
+  border:8px #000 solid;
+  position: absolute ;
+  top:calc(50% - 120px);
+  left:calc(50% - 120px);
+  overflow: hidden;
+}
+.ex-32  .b {
+  width: 120px;
+  height: 120px;
+  background: #000;
+  border:15px black solid;
+  border-radius:100%;
+  position: absolute ;
+  top:calc(50% - 60px);
+  left:calc(50% - 60px);
+}
+.ex-32  .c {
+  width: 120px;
+  height: 120px;
+  border: 15px black solid;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: -39px;
+}
+.ex-32  .d {
+  width: 120px;
+  height: 120px;
+  border: 15px black solid;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 146px;
+  z-index: 100;
+}
+.ex-32  .e {
+  width: 120px;
+  height: 120px;
+  border: 15px black solid;
+  border-radius: 100%;
+  position: absolute;
+  top: 158px;
+  left: 53px;
+  z-index: 100;
+}
+.ex-32  .f {
+  width: 90px;
+  height: 90px;
+  border: 15px hsl(21deg 85% 54%) solid;
+  border-radius: 100%;
+  position: absolute;
+  top: 68px;
+  left: 68px;
+  z-index: 100;
+}
+/* End ex-32 */
+/* Start ex-33 */
+.ex-33 .container {
+  background: black;
+  position: relative;
+  overflow: hidden;
+}
+.ex-33 .a {
+  background: white;
+  width: 160px;
+  height: 100px;
+  border-radius: 87px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 80px);
+}
+.ex-33 .a::after {
+  content: "";
+  background: black;
+  width: 55px;
+  height: 45px;
+  border-radius: 100%;
+  position: absolute;
+  top: 25px;
+  right: 52%;
+  rotate: -30deg;
+}
+.ex-33 .a::before {
+  content: "";
+  background: black;
+  width: 55px;
+  height: 45px;
+  border-radius: 100%;
+  position: absolute;
+  top: 25px;
+  left: 52%;
+  rotate: 30deg;
+}
+.ex-33 .b {
+  background: linear-gradient(to right, #fff 0%, #fff 25%, #000 25%, #000 35%,#fff 35%,#fff 60%,#000 60%,#000 70%,#fff 70%,#fff 95%,#000 95%);
+  width: 55px;
+  height: 17px;
+  position: absolute;
+  top: calc(50% - -55px);
+  left: calc(50% - 26px);
+}
+.ex-33 .c {
+  background: white;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 68px);
+  left: calc(50% - 93px);
+  rotate: -45deg;
+}
+.ex-33 .c::after {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.ex-33 .c::before {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.ex-33 .d {
+  background: white;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - 68px);
+  left: calc(50% - -73px);
+  rotate: 45deg;
+}
+.ex-33 .d::after {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.ex-33 .d::before {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.ex-33 .e {
+  background: white;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - -38px);
+  left: calc(50% - 93px);
+  rotate: -135deg;
+}
+.ex-33 .e::after {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.ex-33 .e::before {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.ex-33 .f {
+  background: white;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: calc(50% - -38px);
+  left: calc(50% - -73px);
+  rotate: 135deg;
+}
+.ex-33 .f::after {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.ex-33 .f::before {
+  content: "";
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+/* End ex-33 */
+/* Start ex-34 */
+.ex-34 .container {
+  background: #161616;
+  position: relative;
+  overflow: hidden;
+}
+.ex-34 .a {
+  background: linear-gradient(to right, #fff 0%, #fff 50%,#ffdeb9 50%);
+  width: 140px;
+  height: 115px;
+  border-radius: 0 0 100% 100%;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 80px);
+  z-index: 2;
+}
+.ex-34 .a::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 20px solid;
+  border-radius: 100%;
+  border-color: transparent transparent black black;
+  position: absolute;
+  top: 60%;
+  left: calc(50% - 20px );
+  rotate: -45deg;
+}
+.ex-34 .b {
+  width: 0px;
+  height: 0px;
+  border: 52px solid;
+  border-radius: 100%;
+  border-color: transparent transparent #eaae10 #eaae10;
+  position: absolute;
+  top: calc(12% + 44px);
+  left: 160px;
+  rotate: -103deg;
+  z-index: 3;
+}
+.ex-34 .c {
+  width: 0px;
+  height: 0px;
+  border: 52px solid;
+  border-radius: 100%;
+  border-color: transparent transparent #eaae10 #eaae10;
+  position: absolute;
+  top: calc(12% + 45px);
+  left: 115px;
+  rotate: 13deg;
+  z-index: 3;
+}
+.ex-34 .d {
+  width: 0px;
+  height: 0px;
+  border: 45px solid;
+  border-radius: 100% 0;
+  border-color: #eaae10;
+  position: absolute;
+  top: 23%;
+  left: 144px;
+  rotate: -45deg;
+  z-index: 2;
+}
+.ex-34 .e {
+  width: 0px;
+  height: 0px;
+  border: 52px solid;
+  border-radius: 100%;
+  border-color: transparent transparent #eaae10 #eaae10;
+  position: absolute;
+  top: calc(12% + 71px);
+  left: 83px;
+  rotate: -25deg;
+  z-index: 1;
+}
+.ex-34 .f {
+  width: 0px;
+  height: 0px;
+  border: 52px solid;
+  border-radius: 100%;
+  border-color: transparent transparent #eaae10 #eaae10;
+  position: absolute;
+  top: calc(12% + 71px);
+  left: 191px;
+  rotate: -65deg;
+  z-index: 1;
+}
+.ex-34 .eye {
+  width: 25px;
+  height: 22px;
+  background: #000;
+  position: absolute;
+  bottom: 88px;
+  left: 143px;
+  border-radius: 50%;
+  z-index: 20;
+}
+.ex-34 .eye::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 12px;
+  left: 5px;
+  border-radius: 50%;
+  z-index: 20;
+}
+.ex-34 .eye-2 {
+  width: 25px;
+  height: 22px;
+  background: #000;
+  position: absolute;
+  bottom: 89px;
+  right: 167px;
+  border-radius: 50%;
+  z-index: 5;
+}
+.ex-34 .eye-2::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 12px;
+  left: 5px;
+  border-radius: 50%;
+  z-index: 20;
+}
+/* End ex-34 */
+/* Start ex-35 */
+.ex-35 .container {
+  background: hsl(203deg 18% 77%);
+  position: relative;
+  overflow: hidden;
+}
+.ex-35 .a {
+  background: hsl(202deg 16% 33%);
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -71px;
+  left: calc(50% - 76px);
+  rotate: 45deg;
+}
+.ex-35 .c {
+  background: hsl(66deg 16% 46%);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border: 10px solid #000;
+  border-radius: 100px;
+  top: 130px;
+  left: 35px;
+  z-index: 3;
+  box-shadow: inset -1px 20px 0px 0px rgb(0 0 0 / 20%);
+}
+.ex-35 .d {
+  position: absolute;
+  border: 40px solid;
+  border-color: black black transparent transparent;
+  rotate: -108deg;
+  top: 143px;
+  left: 26px;
+  z-index: 2;
+}
+.ex-35 .e {
+  position: absolute;
+  border: 40px solid;
+  border-color: black black transparent transparent;
+  rotate: -285deg;
+  top: 189px;
+  left: 112px;
+  z-index: 2;
+}
+.ex-35 .f {
+  background: hsl(9deg 36% 23%);
+  width: 50px;
+  height: 50px;
+  border: 10px solid #000;
+  border-radius: 100px;
+  position: absolute;
+  top: 175px;
+  left: 85px;
+  z-index: 3;
+}
+.ex-35 .big-eye{
+  scale: .8;
+  position: absolute;
+  top: 25px;
+  left: 8px;
+}
+.ex-35 .big-eye2{
+  position: absolute;
+  left: 393px;
+  top: 25px;
+  transform: rotatey(180deg);
+  scale: .8;
+}
+/* End ex-35 */
+/* Start ex-36 */
+.ex-36 .container {
+  background: #6591ce;
+  position: relative;
+  overflow: hidden;
+}
+.ex-36 .a {
+  width: 150px;
+  height: 150px;
+  border: 30px solid;
+  border-color: #060e56 #060e56 transparent transparent;
+  border-radius: 100%;
+  rotate: -225deg;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: 117px;
+  scale: .8;
+}
+.ex-36 .b {
+  width: 150px;
+  height: 150px;
+  border: 30px solid;
+  border-color: #060e56 #060e56 transparent transparent;
+  border-radius: 100%;
+  rotate: -45deg;
+  position: absolute;
+  left: calc(50% - 172px);
+  top: 25px;
+  scale: .8;
+}
+.ex-36 .c {
+  width: 150px;
+  height: 150px;
+  border: 30px solid;
+  border-color: #060e56 #060e56 transparent transparent;
+  border-radius: 100%;
+  rotate: -45deg;
+  position: absolute;
+  left: calc(50% - -21px);
+  top: 25px;
+  scale: .8;
+}
+/* End ex-36 */
+/* Start ex-37 */
+.ex-37 .container {
+  background: hsl(20deg 68% 64%);
+  position: relative;
+  overflow: hidden;
+}
+.ex-37 .a {
+  background: hsl(344deg 43% 47%);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+}
+.ex-37 .b {
+  width: 150px;
+  height: 150px;
+  border: 30px solid  ;
+  border-color: hsl(54deg 90% 73%) transparent ;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: calc(50% - 75px);
+  animation-name: ex-37;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes ex-37 {
+  from {
+    rotate: 0deg;;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+/* End ex-37 */
+/* Start ex-38 */
+.ex-38 .container {
+  background: #0b2429;
+  position: relative;
+  overflow: hidden;
+}
+.ex-38 .big-eye .c {
+  background: #0f212e;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border: 10px solid #998236;
+  border-radius: 100px;
+  top: 130px;
+  left: 35px;
+  z-index: 3;
+}
+.ex-38 .big-eye .d {
+  position: absolute;
+  border: 40px solid;
+  border-color: #998236 #998236 transparent transparent;
+  rotate: -108deg;
+  top: 143px;
+  left: 26px;
+  z-index: 2;
+}
+.ex-38 .big-eye .e {
+  position: absolute;
+  border: 40px solid;
+  border-color: #998236 #998236 transparent transparent;
+  rotate: -285deg;
+  top: 189px;
+  left: 112px;
+  z-index: 2;
+}
+.ex-38 .big-eye .f {
+  background: #0b2429;
+  width: 100px;
+  height: 100px;
+  border: 30px solid #f3ab3d;
+  border-radius: 100px;
+  position: absolute;
+  top: 155px;
+  left: 61px;
+  z-index: 3;
+}
+.ex-38 .big-eye  {
+  scale: 1.5;
+  position: absolute;
+  top: -65px;
+  left: -78px;
+  rotate: -25deg;
+}
+/* End ex-38 */
+/* Start ex-39 */
+.ex-39 .container {
+  background: hsl(31deg 76% 83%);
+  position: relative;
+  overflow: hidden;
+}
+.ex-39 .a{
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  bottom: 35%;
+  left: calc(12.5% + 105px);
+  border: solid 20px;
+  border-radius: 50%;
+  border-color: #d86f45 #d86f45 transparent transparent;
+  transform: rotate(-45deg);
+}
+.ex-39 .b{
+  background: #d86f45;
+  position: absolute;
+  left: 155.5px;
+  bottom: 132px;
+  border-radius: 50% 50% 0 0;
+  border: solid 10px;
+  border-color: #d86f45 #d86f45 transparent transparent;
+  rotate: 180deg;
+}
+.ex-39 .c{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  bottom: 86px;
+  left: 116px;
+  border: solid 20px;
+  border-radius: 50%;
+  border-color: #d86f45 #d86f45 transparent transparent;
+  transform: rotate(135deg);
+}
+.ex-39 .d{
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  bottom: 65px;
+  left: 115px;
+  border: solid 20px;
+  border-radius: 50%;
+  border-color: #d86f45 #d86f45 transparent transparent;
+  transform: rotate(-45deg);
+}
+.ex-39 .e{
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  bottom: 45px;
+  left: 76px;
+  border: solid 20px;
+  border-radius: 50%;
+  border-color: #d86f45 #d86f45 transparent transparent;
+  transform: rotate(135deg);
+}
+.ex-39 .f{
+  background: #d86f45;
+  position: absolute;
+  left: 75.5px;
+  bottom: 150px;
+  border-radius: 50% 50% 0 0;
+  border: solid 10px;
+  border-color: #d86f45 #d86f45 transparent transparent;}
+/* End ex-39 */
+/* Start ex-40 */
+.ex-40 .container {
+  background: #293462;
+  position: relative;
+  overflow: hidden;
+}
+.ex-40 .a{
+  width: 120px;
+  height: 90px;
+  background: #fef1c3;
+  position: absolute;
+  bottom: 35%;
+  left: calc(12.5% + 80px);
+  border-radius: 40% 40% 0 0 ;
+  rotate: 180deg;
+}
+.ex-40 .b{
+  width: 57px;
+  height: 72px;
+  border: 8px #fef1c3 solid;
+  border-bottom: 0;
+  border-radius: 100px 100px 0px 0px;
+  left: 238px;
+  bottom: 131.5px;
+  position: absolute;
+  rotate: 90deg;
+}
+.ex-40 .c{
+  width: 57px;
+  height: 72px;
+  border: 8px #fef1c3 solid;
+  border-bottom: 0;
+  border-radius: 100px 100px 0px 0px;
+  left: 86px;
+  bottom: 131px;
+  position: absolute;
+  rotate: -90deg;
+}
+.ex-40 .d{
+  width: 32px;
+  height: 10px;
+  background: #fd5f54;
+  border-radius: 100px;
+  left: 146px;
+  bottom: 175px;
+  position: absolute;
+}
+.ex-40 .e{
+  width: 32px;
+  height: 10px;
+  background: #fd5f54;
+  border-radius: 100px;
+  left: 146px;
+  bottom: 157px;
+  position: absolute;
+}
+.ex-40 .f{
+  width: 30px;
+  height: 30px;
+  background: #fd5f54;
+  border-radius: 100px;
+  left: 205px;
+  bottom: 125px;
+  position: absolute;
+}
+/* End ex-40 */
