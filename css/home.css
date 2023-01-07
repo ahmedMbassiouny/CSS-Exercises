@@ -4326,3 +4326,337 @@ button {
   position: absolute;
 }
 /* End ex-40 */
+/* Start ex-41 */
+.ex-41 .container {
+  background: #161616;
+  position: relative;
+  overflow: hidden;
+}
+.ex-41 .a {
+  width: 20px;
+  height: 120px;
+  background: #e96a23;
+  position: absolute;
+  left: calc(50% - 10px);
+  bottom: 0px;
+}
+.ex-41 .b {
+  width: 25px;
+  height: 30px;
+  background: #a32016;
+  border-radius: 5px;
+  position: absolute;
+  left: calc(50% - 12.5px);
+  bottom: 110px;
+}
+.ex-41 .c {
+  width: 60px;
+  height: 60px;
+  background: #000;
+  border: #a32016 solid 20px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: 130px;
+  z-index: 2;
+
+}
+.ex-41 .c::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: #fff solid 8px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 23px);
+  bottom: -12px;
+}
+.ex-41 .d {
+  content: "";
+  width: 60px;
+  height: 36px;
+  background: #e96a23;
+  border-radius: 0 46px 5px 0;
+  position: absolute;
+  left: 214px;
+  bottom: 143px;
+  z-index: 1;
+}
+.ex-41 .e {
+  content: "";
+  width: 52px;
+  height: 10px;
+  background: #fff;
+  border-radius: 0 0 0px 46px;
+  position: absolute;
+  left: 132px;
+  bottom: 166px;
+  z-index: 2;
+}
+.ex-41 .e::before {
+  content: "";
+  width: 40px;
+  height: 13px;
+  background: #fff;
+  border-radius: 0 0 0px 46px;
+  position: absolute;
+  right: 0px;
+  bottom: -11px;
+  z-index: 2;
+}
+.ex-41 .e::after {
+  content: "";
+  width: 25px;
+  height: 12px;
+  background: #fff;
+  border-radius: 0 0 0px 46px;
+  position: absolute;
+  right: 0px;
+  bottom: -21px;
+  z-index: 2;
+}
+/* End ex-41 */
+/* Start ex-42 */
+.ex-42 .container {
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+.ex-42 .a {
+  width: 150px;
+  height: 200px;
+  background: #d3392d;
+  position: absolute;
+  border-radius: 100%;
+  left: 80px;
+  bottom: 38px;
+  rotate: -20deg;
+}
+.ex-42 .b {
+  width: 150px;
+  height: 200px;
+  background: #d3392d;
+  position: absolute;
+  border-radius: 100%;
+  left: 178px;
+  bottom: 38px;
+  rotate: 20deg;
+}
+.ex-42 .c {
+  width: 20px;
+  height: 120px;
+  background: #d3392d;
+  position: absolute;
+  left: 194px;
+  bottom: 142px;
+}
+.ex-42 .d {
+  width: 100px;
+  height: 120px;
+  background: #000;
+  position: absolute;
+  border-radius: 100%;
+  left: 38px;
+  bottom: 105px;
+  rotate: -143deg;
+}
+.ex-42 .e {
+  width: 100px;
+  height: 120px;
+  background: #000;
+  position: absolute;
+  border-radius: 100%;
+  left: 38px;
+  bottom: 49px;
+  rotate: -63deg;
+}
+/* End ex-42 */
+/* Start ex-43 */
+.ex-43 .container {
+  background: #ac474b;
+  position: relative;
+  overflow: hidden;
+}
+.ex-43 .a {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  position: absolute;
+  border-radius: 100%;
+  left: calc(50% - 60px);
+  bottom: 30px;
+}
+.ex-43 .b {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  position: absolute;
+  border-radius: 100%;
+  left: calc(50% - 40px);
+  bottom: 150px;
+}
+.ex-43 .c {
+  width: 85px;
+  height: 18px;
+  background: #ac474b;
+  position: absolute;
+  left: calc(50% - 40px);
+  bottom: 140px;
+}
+.ex-43 .d {
+  width: 65px;
+  height: 10px;
+  background: #ffa63d;
+  position: absolute;
+  border-radius: 10px;
+  left: calc(50% - 33px);
+  bottom: 144px;
+}
+.ex-43 .e {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  border-radius: 100%;
+  left: calc(50% - 20px);
+  bottom: 189px;
+}
+.ex-43 .f {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  position: absolute;
+  border-radius: 100%;
+  left: calc(50% - -8px);
+  bottom: 189px;
+}
+.ex-43 .g {
+  width: 66px;
+  height: 7px;
+  background: #000;
+  position: absolute;
+  left: calc(50% - 33px);
+  bottom: 224px;
+}
+.ex-43 .h {
+  width: 54px;
+  height: 51px;
+  background: linear-gradient(to bottom ,#000 0%,#000 40%,#fff 40%,#fff 70%,#000 70%);
+  position: absolute;
+  left: calc(50% - 27px);
+  bottom: 231px;
+}
+.ex-43 .i {
+  width: 10px;
+  height: 10px;
+  background: #000000a8;
+  position: absolute;
+  border-radius: 100%;
+  left: calc(50% - 5px);
+  bottom: 114px;
+}
+.ex-43 .i::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #000000a8;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -25px;
+}
+.ex-43 .i::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #000000a8;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -50px;
+}
+/* End ex-43 */
+/* Start ex-44 */
+.ex-44 .container {
+  background: #f3ab3c;
+  position: relative;
+  overflow: hidden;
+}
+.ex-44 .a {
+  width: 130px;
+  height: 130px;
+  background: #998236;
+  position: absolute;
+  border-radius: 100%;
+  left: 20px;
+  bottom: calc(50% - 65px);
+}
+.ex-44 .b {
+  width: 100px;
+  height: 100px;
+  background: #998236;
+  position: absolute;
+  border-radius: 100%;
+  left: 110px;
+  bottom: calc(50% - 50px);
+  z-index: 2;
+}
+.ex-44 .c {
+  width: 10px;
+  height: 50px;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 10px;
+  left: 70px;
+  bottom: calc(50% - 25px);
+  z-index: 2;
+}
+.ex-44 .d {
+  width: 60px;
+  height: 60px;
+  background: #1b4342;
+  position: absolute;
+  border: 10px solid #f3ab3c;
+  border-radius: 100%;
+  left: 130px;
+  bottom: calc(50% - 30px);
+  z-index: 2;
+}
+.ex-44 .e {
+  width: 120px;
+  height: 30px;
+  background: #1b4342;
+  position: absolute;
+  left: 206px;
+  bottom: calc(50% - 15px);
+  z-index: 1;
+}
+.ex-44 .f {
+  width: 50px;
+  height: 48px;
+  background: #998236;
+  position: absolute;
+  left:325px;
+  bottom: calc(50% - 24px);
+  z-index: 1;
+  border-radius: 10px;
+}
+.ex-44 .f::after {
+  content: '';
+  width: 34px;
+  height: 5px;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 10px;
+  left: 8px;
+  bottom: calc(50% - -7px);
+}
+.ex-44 .f::before {
+  content: '';
+  width: 34px;
+  height: 5px;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 10px;
+  left: 8px;
+  bottom: calc(50% - 12px);
+}
+/* End ex-44 */
