@@ -6,13 +6,16 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #152939;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -36,12 +39,14 @@ body {
   margin-right: auto;
   padding: 5px;
 }
+
 /* End giobal roles */
 
 /* Start ex-one */
 .name {
   overflow: hidden;
 }
+
 .name h1 {
   text-align: center;
   font-size: 50px;
@@ -59,28 +64,36 @@ body {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes test {
   from {
-    transform: /*translate(0px, 0px)*/ rotate(-2deg);
+    transform:
+      /*translate(0px, 0px)*/ rotate(-2deg);
   }
+
   to {
-    transform:/*translate(0px, 0px)*/ rotate(2deg);
+    transform:
+      /*translate(0px, 0px)*/ rotate(2deg);
     border: #ffffff solid 10px;
   }
 }
+
 .name span {
   color: #267eb6;
   font-size: 70px;
   font-weight: bold;
 }
+
 .one .container {
   background-color: #5d3a3a;
 }
+
 .one .solve {
   width: 60%;
   height: 212px;
   background: #b5e0ba;
 }
+
 /* end ex-one */
 /* Start ex-two */
 .two .container {
@@ -88,6 +101,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
 .two .solve-l {
   width: 70px;
   height: 70px;
@@ -95,6 +109,7 @@ body {
   margin-top: 50px;
   background: #fdc57b;
 }
+
 .two .solve-r {
   width: 70px;
   height: 70px;
@@ -102,12 +117,14 @@ body {
   margin-top: 50px;
   background: #fdc57b;
 }
+
 /* end ex-two */
 /* Start ex-three */
 .three .container {
   background-color: #6592cf;
   position: relative;
 }
+
 .three .solve {
   position: absolute;
   top: 50%;
@@ -117,6 +134,7 @@ body {
   background: #243d83;
   transform: translate(-50%, -50%);
 }
+
 .three .solve .c-1 {
   background: #6592cf;
   position: absolute;
@@ -127,6 +145,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+
 .three .solve .c-2 {
   background: #243d83;
   position: absolute;
@@ -137,6 +156,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+
 .three .solve .c-3 {
   background: #eeb850;
   position: absolute;
@@ -147,16 +167,19 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+
 /* End ex-three */
 /* Start ex-four */
 .four .container {
   background: #62306d;
   display: flex;
 }
+
 .four .all {
   position: relative;
   margin: 50px 50px;
 }
+
 .four .solve-1 {
   background: #f7ec7d;
   width: 90px;
@@ -164,6 +187,7 @@ body {
   height: 100px;
   position: absolute;
 }
+
 .four .solve-2 {
   background: #f7ec7d;
   width: 90px;
@@ -174,6 +198,7 @@ body {
   position: absolute;
   transform: rotate(180deg);
 }
+
 .four .solve-3 {
   background: #f7ec7d;
   width: 90px;
@@ -182,6 +207,7 @@ body {
   left: 180px;
   position: absolute;
 }
+
 /* End ex-four */
 /* Start ex-five */
 .five .container {
@@ -189,10 +215,12 @@ body {
   position: relative;
   display: flex;
 }
+
 .five .all {
   transform: translate(15px, -70px);
   scale: 1.5;
 }
+
 .five .c-1 {
   background: #f3ac3c;
   width: 80px;
@@ -203,6 +231,7 @@ body {
   left: 50px;
   z-index: 3;
 }
+
 .five .s-1 {
   background: #f3ac3c;
   width: 50px;
@@ -214,6 +243,7 @@ body {
   border-radius: 10px 0px;
   z-index: 3;
 }
+
 .five .c-2 {
   background: #998235;
   width: 80px;
@@ -224,6 +254,7 @@ body {
   left: 80px;
   z-index: 2;
 }
+
 .five .s-2 {
   background: #998235;
   width: 50px;
@@ -235,6 +266,7 @@ body {
   border-radius: 10px 0px;
   z-index: 2;
 }
+
 .five .c-3 {
   background: #f3ac3c;
   width: 80px;
@@ -245,11 +277,13 @@ body {
   left: 110px;
   z-index: 1;
 }
+
 /* End ex-five */
 /* start ex-six */
 .six .container {
   background: #e3516e;
 }
+
 .six .c-1 {
   border-style: solid;
   border-width: 100px;
@@ -258,12 +292,14 @@ body {
   border-radius: 50%;
   border-color: #51b5a9 #fade8b transparent #f7f3d7;
 }
+
 /* End ex-six */
 /* start ex-seven */
 .seven .container {
   background: #6592cf;
   position: relative;
 }
+
 .seven .c-1 {
   background: #060f55;
   width: 20px;
@@ -273,6 +309,7 @@ body {
   left: 50%;
   transform: translate(-50%);
 }
+
 .seven .c-2 {
   background: #060f55;
   width: 140px;
@@ -283,6 +320,7 @@ body {
   transform: translate(-50%);
   border-radius: 0px 0px 100px 100px;
 }
+
 .seven .c-3 {
   height: 150px;
   background: #060f55;
@@ -292,6 +330,7 @@ body {
   left: 130px;
   border-radius: 50px;
 }
+
 .seven .c-4 {
   height: 150px;
   background: #060f55;
@@ -301,6 +340,7 @@ body {
   left: 170px;
   border-radius: 50px;
 }
+
 .seven .c-5 {
   height: 150px;
   background: #060f55;
@@ -310,6 +350,7 @@ body {
   left: 210px;
   border-radius: 50px;
 }
+
 .seven .c-6 {
   height: 150px;
   background: #060f55;
@@ -319,6 +360,7 @@ body {
   left: 250px;
   border-radius: 50px;
 }
+
 .seven .c-7 {
   height: 150px;
   background: #6592cf;
@@ -328,6 +370,7 @@ body {
   left: 150px;
   border-radius: 50px;
 }
+
 .seven .c-8 {
   height: 150px;
   background: #6592cf;
@@ -337,6 +380,7 @@ body {
   left: 190px;
   border-radius: 50px;
 }
+
 .seven .c-9 {
   height: 150px;
   background: #6592cf;
@@ -354,6 +398,7 @@ body {
   background-color: #000000;
   position: relative;
 }
+
 .eight .solve {
   position: absolute;
   top: 50%;
@@ -363,6 +408,7 @@ body {
   background: #4caab3;
   transform: translate(-50%, -50%);
 }
+
 .eight .solve .c-1 {
   background: #000000;
   position: absolute;
@@ -372,6 +418,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
+
 .eight .solve .c-2 {
   background: #4caab3;
   position: absolute;
@@ -381,6 +428,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(90deg);
 }
+
 .eight .solve .c-3 {
   background: #393e46;
   position: absolute;
@@ -391,12 +439,14 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
+
 /* End ex-8 */
 /* Start ex-9 */
 .nine .container {
   background-color: #62306d;
   position: relative;
 }
+
 .nine .c-1 {
   background: #f7ec7d;
   width: 75%;
@@ -405,24 +455,27 @@ body {
   bottom: 0;
   left: 12.5%;
 }
+
 .nine .c-2 {
   background: #f7ec7d;
   width: 25%;
-  height: 70%;
+  height: 67%;
   position: absolute;
   bottom: 0;
-  left: 37.5%;
+  left: 12.5%;
 }
+
 .nine .c-3 {
   background: #e38f66;
   position: absolute;
   width: 100px;
   height: 100px;
-  bottom: 14%;
+  bottom: 49%;
   left: 12.5%;
   border: 30px solid #aa445f;
   border-radius: 50px;
 }
+
 .nine .c-4 {
   background: #e38f66;
   position: absolute;
@@ -433,22 +486,35 @@ body {
   border: 30px solid #aa445f;
   border-radius: 50px;
 }
+
 .nine .c-5 {
   background: #aa445f;
   position: absolute;
   width: 100px;
   height: 100px;
-  bottom: 52%;
+  bottom: 32%;
   left: 37.5%;
   border: 30px solid #e38f66;
   border-radius: 50px;
+  z-index: 10;
 }
+
+.nine .c-6 {
+  background: #f7ec7d;
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  bottom: 0px;
+  left: 37.5%;
+}
+
 /* End ex-9 */
 /* Start ex-10 */
 .ten .container {
   background-color: #191210;
   position: relative;
 }
+
 .ten .c-1 {
   background: #191210;
   width: 100px;
@@ -461,6 +527,7 @@ body {
   border-color: #eca03d #eca03d transparent transparent;
   transform: rotate(135deg);
 }
+
 .ten .c-2 {
   background: #191210;
   width: 130px;
@@ -473,6 +540,7 @@ body {
   border-color: #eca03d;
   z-index: 2;
 }
+
 .ten .c-3 {
   background: #84271c;
   width: 50px;
@@ -483,6 +551,7 @@ body {
   border-radius: 50%;
   transform: translate(-50%, 50%);
 }
+
 .ten .c-4 {
   background: #191210;
   width: 100px;
@@ -496,12 +565,14 @@ body {
   transform: rotate(315deg);
   z-index: 1;
 }
+
 /* End ex-10 */
 /* Start ex-11 */
 .eleven .container {
   background-color: #f5d6b4;
   position: relative;
 }
+
 .eleven .c-1 {
   background: #f5d6b4;
   width: 100px;
@@ -515,6 +586,7 @@ body {
   transform: rotate(135deg);
   z-index: 2;
 }
+
 .eleven .c-2 {
   background: #f5d6b4;
   width: 100px;
@@ -528,6 +600,7 @@ body {
   border-color: #eca03d;
   z-index: 3;
 }
+
 .eleven .c-3 {
   background: #f5d6b4;
   width: 100px;
@@ -541,6 +614,7 @@ body {
   transform: rotate(135deg);
   z-index: 2;
 }
+
 .eleven .c-4 {
   background: #eca03d;
   position: absolute;
@@ -552,6 +626,7 @@ body {
   border-color: #eca03d #eca03d transparent transparent;
   z-index: 20;
 }
+
 .eleven .c-5 {
   background: #eca03d;
   position: absolute;
@@ -563,12 +638,14 @@ body {
   border-color: #eca03d #eca03d transparent transparent;
   z-index: 20;
 }
+
 /* End ex-11 */
 /* Starrt ex-12 */
 .ex-12 .container {
   background: #0b2429;
   position: relative;
 }
+
 .ex-12 .c-1 {
   background: #f3ac3c;
   width: 40%;
@@ -579,6 +656,7 @@ body {
   position: absolute;
   z-index: 3;
 }
+
 .ex-12 .c-2 {
   background: #998235;
   width: 40%;
@@ -589,6 +667,7 @@ body {
   position: absolute;
   z-index: 2;
 }
+
 .ex-12 .c-3 {
   background: #1a4341;
   width: 40%;
@@ -606,6 +685,7 @@ body {
   background: #eff2f1;
   position: relative;
 }
+
 .ex-13 .c-1 {
   background: #1c1c1c;
   width: 40%;
@@ -615,6 +695,7 @@ body {
   left: 40%;
   border-radius: 0 100px 100px 0;
 }
+
 .ex-13 .c-2 {
   background: #eff2f1;
   width: 20%;
@@ -624,6 +705,7 @@ body {
   left: 52%;
   border-radius: 0 100px 100px 0;
 }
+
 .ex-13 .c-3 {
   background: #1c1c1c;
   width: 5%;
@@ -632,6 +714,7 @@ body {
   top: 10%;
   left: 36%;
 }
+
 .ex-13 .c-4 {
   position: absolute;
   border: #eff2f1 20px solid;
@@ -639,6 +722,7 @@ body {
   left: 112px;
   transform: rotate(45deg);
 }
+
 .ex-13 .c-5 {
   background: #1c1c1c;
   width: 48px;
@@ -647,6 +731,7 @@ body {
   top: 59%;
   left: 40%;
 }
+
 .ex-13 .c-6 {
   background: #1c1c1c;
   width: 48px;
@@ -656,6 +741,7 @@ body {
   left: 59%;
   transform: rotate(-11deg);
 }
+
 .ex-13 .d2 .c-3 {
   background: #1c1c1c;
   width: 5%;
@@ -664,6 +750,7 @@ body {
   top: 86%;
   left: 36%;
 }
+
 .ex-13 .d2 .c-4 {
   position: absolute;
   border: #eff2f1 20px solid;
@@ -671,6 +758,7 @@ body {
   left: 112px;
   transform: rotate(45deg);
 }
+
 .ex-13 .d3 .c-3 {
   background: #1c1c1c;
   width: 5%;
@@ -679,6 +767,7 @@ body {
   top: 86%;
   left: 51%;
 }
+
 .ex-13 .d3 .c-4 {
   position: absolute;
   border: #eff2f1 20px solid;
@@ -686,6 +775,7 @@ body {
   left: 217px;
   transform: rotate(45deg);
 }
+
 .ex-13 .d4 .c-3 {
   background: #1c1c1c;
   width: 57px;
@@ -694,6 +784,7 @@ body {
   top: 86%;
   left: 62%;
 }
+
 .ex-13 .d4 .c-4 {
   position: absolute;
   border: #eff2f1 20px solid;
@@ -701,6 +792,7 @@ body {
   left: 299px;
   transform: rotate(45deg);
 }
+
 /* End ex-13 */
 /* Start ex-14 */
 .ex-14 .container {
@@ -708,18 +800,22 @@ body {
   width: 90%;
   height: fit-content;
 }
+
 .ex-14 h1 {
   text-align: center;
 }
+
 .ex-14 .frame {
   width: 90%;
   height: fit-content;
   margin: 20px auto;
   text-align: center;
 }
+
 button {
   margin: 20px;
 }
+
 .ex-14 .custom-btn {
   width: 140px;
   height: 40px;
@@ -738,12 +834,14 @@ button {
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
+
 /* 1 */
 .ex-14 .btn-1 {
   background: rgb(131, 62, 6);
   background: linear-gradient(0deg, rgb(131, 69, 6) 0%, rgb(174, 121, 41) 100%);
   border: none;
 }
+
 .ex-14 .btn-1:hover {
   background: rgb(0, 3, 255);
   background: linear-gradient(
@@ -752,6 +850,7 @@ button {
     rgba(2, 126, 251, 1) 100%
   );
 }
+
 /* 2 */
 .ex-14 .btn-2 {
   background: rgb(96, 9, 240);
@@ -762,12 +861,14 @@ button {
   );
   border: none;
 }
+
 .ex-14 .btn-2:hover {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
     -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
+
 /* 3 */
 .ex-14 .btn-3 {
   background: rgb(0, 172, 238);
@@ -782,12 +883,14 @@ button {
   padding: 0;
   border: none;
 }
+
 .ex-14 .btn-3 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .ex-14 .btn-3:before,
 .ex-14 .btn-3:after {
   position: absolute;
@@ -797,27 +900,34 @@ button {
   background: rgba(2, 126, 251, 1);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-3:before {
   height: 0%;
   width: 2px;
 }
+
 .ex-14 .btn-3:after {
   width: 0%;
   height: 2px;
 }
+
 .ex-14 .btn-3:hover {
   background: transparent;
   box-shadow: none;
 }
+
 .ex-14 .btn-3:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-3:hover:after {
   width: 100%;
 }
+
 .ex-14 .btn-3 span:hover {
   color: rgba(2, 126, 251, 1);
 }
+
 .ex-14 .btn-3 span:before,
 .ex-14 .btn-3 span:after {
   position: absolute;
@@ -827,17 +937,21 @@ button {
   background: rgba(2, 126, 251, 1);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-3 span:before {
   width: 2px;
   height: 0%;
 }
+
 .ex-14 .btn-3 span:after {
   width: 0%;
   height: 2px;
 }
+
 .ex-14 .btn-3 span:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-3 span:hover:after {
   width: 100%;
 }
@@ -850,16 +964,19 @@ button {
   padding: 0;
   border: none;
 }
+
 .ex-14 .btn-4:hover {
   background-color: #89d8d3;
   background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
 }
+
 .ex-14 .btn-4 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .ex-14 .btn-4:before,
 .ex-14 .btn-4:after {
   position: absolute;
@@ -872,20 +989,25 @@ button {
     inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-4:before {
   height: 0%;
   width: 0.1px;
 }
+
 .ex-14 .btn-4:after {
   width: 0%;
   height: 0.1px;
 }
+
 .ex-14 .btn-4:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-4:hover:after {
   width: 100%;
 }
+
 .ex-14 .btn-4 span:before,
 .ex-14 .btn-4 span:after {
   position: absolute;
@@ -898,17 +1020,21 @@ button {
     inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-4 span:before {
   width: 0.1px;
   height: 0%;
 }
+
 .ex-14 .btn-4 span:after {
   width: 0%;
   height: 0.1px;
 }
+
 .ex-14 .btn-4 span:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-4 span:hover:after {
   width: 100%;
 }
@@ -927,11 +1053,13 @@ button {
     rgba(251, 75, 2, 1) 100%
   );
 }
+
 .ex-14 .btn-5:hover {
   color: #f0094a;
   background: transparent;
   box-shadow: none;
 }
+
 .ex-14 .btn-5:before,
 .ex-14 .btn-5:after {
   content: "";
@@ -945,12 +1073,14 @@ button {
     4px 4px 5px 0px #0002;
   transition: 400ms ease all;
 }
+
 .ex-14 .btn-5:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
+
 .ex-14 .btn-5:hover:before,
 .ex-14 .btn-5:hover:after {
   width: 100%;
@@ -969,12 +1099,14 @@ button {
   padding: 0;
   border: none;
 }
+
 .ex-14 .btn-6 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .ex-14 .btn-6:before,
 .ex-14 .btn-6:after {
   position: absolute;
@@ -985,29 +1117,35 @@ button {
     -4px -4px 5px 0px rgba(255, 255, 255, 1),
     7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
 .ex-14 .btn-6:before {
   right: 0;
   top: 0;
   transition: all 500ms ease;
 }
+
 .ex-14 .btn-6:after {
   left: 0;
   bottom: 0;
   transition: all 500ms ease;
 }
+
 .ex-14 .btn-6:hover {
   background: transparent;
   color: #76aef1;
   box-shadow: none;
 }
+
 .ex-14 .btn-6:hover:before {
   transition: all 500ms ease;
   height: 100%;
 }
+
 .ex-14 .btn-6:hover:after {
   transition: all 500ms ease;
   height: 100%;
 }
+
 .ex-14 .btn-6 span:before,
 .ex-14 .btn-6 span:after {
   position: absolute;
@@ -1016,6 +1154,7 @@ button {
     -4px -4px 5px 0px rgba(255, 255, 255, 1),
     7px 7px 20px 0px rgba(0, 0, 0, 0.4), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
 .ex-14 .btn-6 span:before {
   left: 0;
   top: 0;
@@ -1023,6 +1162,7 @@ button {
   height: 0.5px;
   transition: all 500ms ease;
 }
+
 .ex-14 .btn-6 span:after {
   right: 0;
   bottom: 0;
@@ -1030,9 +1170,11 @@ button {
   height: 0.5px;
   transition: all 500ms ease;
 }
+
 .ex-14 .btn-6 span:hover:before {
   width: 100%;
 }
+
 .ex-14 .btn-6 span:hover:after {
   width: 100%;
 }
@@ -1048,12 +1190,14 @@ button {
   padding: 0;
   border: none;
 }
+
 .ex-14 .btn-7 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .ex-14 .btn-7:before,
 .ex-14 .btn-7:after {
   position: absolute;
@@ -1066,24 +1210,30 @@ button {
     7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-7:before {
   height: 0%;
   width: 2px;
 }
+
 .ex-14 .btn-7:after {
   width: 0%;
   height: 2px;
 }
+
 .ex-14 .btn-7:hover {
   color: rgba(251, 75, 2, 1);
   background: transparent;
 }
+
 .ex-14 .btn-7:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-7:hover:after {
   width: 100%;
 }
+
 .ex-14 .btn-7 span:before,
 .ex-14 .btn-7 span:after {
   position: absolute;
@@ -1096,17 +1246,21 @@ button {
     7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-7 span:before {
   width: 2px;
   height: 0%;
 }
+
 .ex-14 .btn-7 span:after {
   height: 2px;
   width: 0%;
 }
+
 .ex-14 .btn-7 span:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-7 span:hover:after {
   width: 100%;
 }
@@ -1119,12 +1273,14 @@ button {
   padding: 0;
   border: none;
 }
+
 .ex-14 .btn-8 span {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .ex-14 .btn-8:before,
 .ex-14 .btn-8:after {
   position: absolute;
@@ -1138,26 +1294,33 @@ button {
     inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-8:before {
   height: 0%;
   width: 2px;
 }
+
 .ex-14 .btn-8:after {
   width: 0%;
   height: 2px;
 }
+
 .ex-14 .btn-8:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-8:hover:after {
   width: 100%;
 }
+
 .ex-14 .btn-8:hover {
   background: transparent;
 }
+
 .ex-14 .btn-8 span:hover {
   color: #c797eb;
 }
+
 .ex-14 .btn-8 span:before,
 .ex-14 .btn-8 span:after {
   position: absolute;
@@ -1171,17 +1334,21 @@ button {
     inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-8 span:before {
   width: 2px;
   height: 0%;
 }
+
 .ex-14 .btn-8 span:after {
   height: 2px;
   width: 0%;
 }
+
 .ex-14 .btn-8 span:hover:before {
   height: 100%;
 }
+
 .ex-14 .btn-8 span:hover:after {
   width: 100%;
 }
@@ -1192,6 +1359,7 @@ button {
   transition: all 0.3s ease;
   overflow: hidden;
 }
+
 .ex-14 .btn-9:after {
   position: absolute;
   content: " ";
@@ -1204,6 +1372,7 @@ button {
   background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-9:hover {
   background: transparent;
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
@@ -1212,6 +1381,7 @@ button {
     inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
   color: #fff;
 }
+
 .ex-14 .btn-9:hover:after {
   -webkit-transform: scale(2) rotate(180deg);
   transform: scale(2) rotate(180deg);
@@ -1234,6 +1404,7 @@ button {
   transition: all 0.3s ease;
   overflow: hidden;
 }
+
 .ex-14 .btn-10:after {
   position: absolute;
   content: " ";
@@ -1246,11 +1417,13 @@ button {
   -webkit-transform: scale(0.1);
   transform: scale(0.1);
 }
+
 .ex-14 .btn-10:hover {
   color: #fff;
   border: none;
   background: transparent;
 }
+
 .ex-14 .btn-10:hover:after {
   background: rgb(0, 3, 255);
   background: linear-gradient(
@@ -1274,10 +1447,12 @@ button {
   color: #fff;
   overflow: hidden;
 }
+
 .ex-14 .btn-11:hover {
   text-decoration: none;
   color: #fff;
 }
+
 .ex-14 .btn-11:before {
   position: absolute;
   content: "";
@@ -1289,9 +1464,11 @@ button {
   background-color: #fff;
   animation: shiny-btn1 3s ease-in-out infinite;
 }
+
 .ex-14 .btn-11:hover {
   opacity: 0.7;
 }
+
 .ex-14 .btn-11:active {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
     -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
@@ -1304,14 +1481,17 @@ button {
     -webkit-transform: scale(0) rotate(45deg);
     opacity: 0;
   }
+
   80% {
     -webkit-transform: scale(0) rotate(45deg);
     opacity: 0.5;
   }
+
   81% {
     -webkit-transform: scale(4) rotate(45deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(50) rotate(45deg);
     opacity: 0;
@@ -1331,6 +1511,7 @@ button {
   -webkit-perspective: 230px;
   perspective: 230px;
 }
+
 .ex-14 .btn-12 span {
   background: rgb(0, 172, 238);
   background: linear-gradient(
@@ -1353,6 +1534,7 @@ button {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .ex-14 .btn-12 span:nth-child(1) {
   box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
@@ -1363,6 +1545,7 @@ button {
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
 }
+
 .ex-14 .btn-12 span:nth-child(2) {
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
@@ -1371,6 +1554,7 @@ button {
   -moz-transform-origin: 50% 50% -20px;
   transform-origin: 50% 50% -20px;
 }
+
 .ex-14 .btn-12:hover span:nth-child(1) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
@@ -1378,6 +1562,7 @@ button {
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
+
 .ex-14 .btn-12:hover span:nth-child(2) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
@@ -1394,6 +1579,7 @@ button {
   border: none;
   z-index: 1;
 }
+
 .ex-14 .btn-13:after {
   position: absolute;
   content: "";
@@ -1409,13 +1595,16 @@ button {
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-13:hover {
   color: #fff;
 }
+
 .ex-14 .btn-13:hover:after {
   top: 0;
   height: 100%;
 }
+
 .ex-14 .btn-13:active {
   top: 2px;
 }
@@ -1426,6 +1615,7 @@ button {
   border: none;
   z-index: 1;
 }
+
 .ex-14 .btn-14:after {
   position: absolute;
   content: "";
@@ -1441,14 +1631,17 @@ button {
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-14:hover {
   color: #000;
 }
+
 .ex-14 .btn-14:hover:after {
   top: auto;
   bottom: 0;
   height: 100%;
 }
+
 .ex-14 .btn-14:active {
   top: 2px;
 }
@@ -1459,6 +1652,7 @@ button {
   border: none;
   z-index: 1;
 }
+
 .ex-14 .btn-15:after {
   position: absolute;
   content: "";
@@ -1473,13 +1667,16 @@ button {
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-15:hover {
   color: #fff;
 }
+
 .ex-14 .btn-15:hover:after {
   left: 0;
   width: 100%;
 }
+
 .ex-14 .btn-15:active {
   top: 2px;
 }
@@ -1489,6 +1686,7 @@ button {
   border: none;
   color: #000;
 }
+
 .ex-14 .btn-16:after {
   position: absolute;
   content: "";
@@ -1502,23 +1700,28 @@ button {
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
+
 .ex-14 .btn-16:hover {
   color: #000;
 }
+
 .ex-14 .btn-16:hover:after {
   left: auto;
   right: 0;
   width: 100%;
 }
+
 .ex-14 .btn-16:active {
   top: 2px;
 }
+
 /* End ex-14 */
 /* Start ex-15 */
 .ex-15 .container {
   background: #62306d;
   position: relative;
 }
+
 .ex-15 .c-1 {
   width: 15%;
   height: 60%;
@@ -1529,6 +1732,7 @@ button {
   transform: skewx(-20deg);
   z-index: 2;
 }
+
 .ex-15 .c-2 {
   width: 15%;
   height: 60%;
@@ -1539,6 +1743,7 @@ button {
   transform: skewx(20deg) rotate(180deg);
   z-index: 1;
 }
+
 .ex-15 .c-3 {
   width: 15%;
   height: 20%;
@@ -1549,6 +1754,7 @@ button {
   transform: skewx(45deg) rotate(180deg);
   z-index: 3;
 }
+
 .ex-15 .c-4 {
   width: 15%;
   height: 20%;
@@ -1559,12 +1765,14 @@ button {
   transform: skewx(-45deg);
   z-index: 4;
 }
+
 /* End ex-15 */
 /* Start ex-16 */
 .ex-16 .container {
   background: #eee;
   position: relative;
 }
+
 .ex-16 .c-1 {
   background: #f1d5b5;
   border: 4px #de9c56 solid;
@@ -1576,6 +1784,7 @@ button {
   left: 40%;
   transform: rotate(5deg);
 }
+
 .ex-16 .c-2 {
   background: #f1d5b5;
   border: 4px #de9c56 solid;
@@ -1589,6 +1798,7 @@ button {
   border-bottom-left-radius: 5px;
   transform: skew(-40deg);
 }
+
 .ex-16 .c-3 {
   background: #f1d5b5;
   border: 4px #de9c56 solid;
@@ -1602,6 +1812,7 @@ button {
   border-bottom-left-radius: 10px;
   z-index: 2;
 }
+
 .ex-16 .c-4 {
   background: #f1d5b5;
   border: 3px #de9c56 solid;
@@ -1616,6 +1827,7 @@ button {
   transform: rotate(-45deg);
   z-index: 2;
 }
+
 .ex-16 .c-5 {
   background: #f1d5b5;
   border: 4px #de9c56 solid;
@@ -1629,6 +1841,7 @@ button {
   right: calc(100% - 10px);
   z-index: 2;
 }
+
 .ex-16 .c-6 {
   background: #ffffff;
   border: 3px #000000 solid;
@@ -1640,6 +1853,7 @@ button {
   position: absolute;
   z-index: 2;
 }
+
 .ex-16 .c-6::after {
   content: "";
   position: absolute;
@@ -1656,6 +1870,7 @@ button {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 .ex-16 .c-6::before {
   content: "";
   position: absolute;
@@ -1673,14 +1888,17 @@ button {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes examplec6 {
   from {
     transform: translate(0px, 0px);
   }
+
   to {
     transform: translate(5px, 3px);
   }
 }
+
 .ex-16 .c-7 {
   background: #ffffff;
   border: 3px #000000 solid;
@@ -1692,6 +1910,7 @@ button {
   position: absolute;
   z-index: 1;
 }
+
 .ex-16 .c-7::after {
   content: "";
   position: absolute;
@@ -1708,6 +1927,7 @@ button {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 .ex-16 .c-7::before {
   content: "";
   position: absolute;
@@ -1725,14 +1945,17 @@ button {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes example-c7 {
   from {
     transform: translate(-5px);
   }
+
   to {
     transform: translate(0px);
   }
 }
+
 .ex-16 .b {
   position: absolute;
   width: 90px;
@@ -1740,28 +1963,33 @@ button {
   border-top: 20px solid green;
   border-radius: 50px 40px 0px 0px;
 }
+
 .ex-16 .h-1 {
   transform: rotate(381deg);
   top: -18px;
   left: -30px;
 }
+
 .ex-16 .h-2 {
   transform: rotate(52deg);
   top: -25px;
   left: -33px;
 }
+
 .ex-16 .h-3 {
   transform: rotate(0deg);
   top: -15px;
   left: -24px;
   border-radius: 50px 25px 0px 0px;
 }
+
 .ex-16 .h-4 {
   transform: rotate(108deg);
   top: -34px;
   left: -28px;
   width: 80px;
 }
+
 /* End ex-16 */
 /* start ex-17 */
 .ex-17 .container {
@@ -1769,6 +1997,7 @@ button {
   box-shadow: none;
   width: 70%;
 }
+
 @media (max-width: 767px) {
   .ex-17 .container {
     scale: 0.9;
@@ -1785,6 +2014,7 @@ button {
   top: 40%;
   left: 33%;
 }
+
 .ex-17 .c-2 {
   width: 110px;
   height: 110px;
@@ -1794,6 +2024,7 @@ button {
   top: 40%;
   left: calc(33% + 100px);
 }
+
 .ex-17 .c-1::before {
   content: "";
   position: absolute;
@@ -1807,6 +2038,7 @@ button {
   transform-origin: 139px 99px;
   animation: danc-l 1s ease-in-out infinite;
 }
+
 .ex-17 .c-1::after {
   content: "";
   position: absolute;
@@ -1820,6 +2052,7 @@ button {
   transform-origin: 1px 99px;
   animation: danc-r 1s ease-in-out infinite;
 }
+
 /* .ex-17 .c-1:hover::after,::before {
   animation-play-state: paused;
 } */
@@ -1827,30 +2060,37 @@ button {
   0% {
     transform: rotate(40deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(40deg);
   }
 }
+
 @keyframes danc-l {
   0% {
     transform: rotate(-40deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(-40deg);
   }
 }
+
 /* End ex-17 */
 /* start ex-18 */
 .ex-18 .container {
   background: rgb(255, 255, 255);
   position: relative;
 }
+
 .ex-18 .c-1 {
   border: 140px solid;
   border-radius: 50%;
@@ -1863,6 +2103,7 @@ button {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
 .ex-18 .c-2 {
   width: 60px;
   height: 60px;
@@ -1875,6 +2116,7 @@ button {
   border-radius: 50%;
   z-index: 3;
 }
+
 .ex-18 .c-3 {
   width: 260px;
   height: 10px;
@@ -1885,6 +2127,7 @@ button {
   left: 50%;
   z-index: 2;
 }
+
 .ex-18 .c-3::before {
   content: "";
   width: 20px;
@@ -1895,6 +2138,7 @@ button {
   top: 50%;
   left: 0px;
 }
+
 .ex-18 .c-3::after {
   content: "";
   width: 20px;
@@ -1905,6 +2149,7 @@ button {
   top: 50%;
   left: 100%;
 }
+
 /* End ex-18 */
 /* start ex-19 */
 .ex-19 .container {
@@ -1912,6 +2157,7 @@ button {
   background: #e74f4d;
   position: relative;
 }
+
 .ex-19 .c-1 {
   background: #fed30f;
   width: 80px;
@@ -1923,6 +2169,7 @@ button {
   border-radius: 100px 100px 0 0;
   transform: rotate(-30deg);
 }
+
 .ex-19 .c-1::after {
   content: "";
   border-top: 2px solid black;
@@ -1932,6 +2179,7 @@ button {
   transform: rotate(-25deg) translate(12px, 0px);
   border-radius: 50%;
 }
+
 .ex-19 .c-1::before {
   content: "";
   border-top: 2px solid black;
@@ -1941,6 +2189,7 @@ button {
   transform: rotate(-13deg) translate(20px, 3px);
   border-radius: 50%;
 }
+
 .ex-19 .c-2 {
   background-color: white;
   width: 30px;
@@ -1951,6 +2200,7 @@ button {
   top: 59%;
   right: -9px;
 }
+
 .ex-19 .c-2::after {
   content: "";
   background-color: rgb(0, 0, 0);
@@ -1961,6 +2211,7 @@ button {
   top: 50%;
   right: 50%;
 }
+
 .ex-19 .c-3 {
   background-color: white;
   width: 30px;
@@ -1972,6 +2223,7 @@ button {
   right: 15px;
   z-index: 3;
 }
+
 .ex-19 .c-3::after {
   content: "";
   background-color: rgb(0, 0, 0);
@@ -1982,6 +2234,7 @@ button {
   top: 50%;
   right: 50%;
 }
+
 .ex-19 .c-4 {
   background: #fed30f;
   width: 70px;
@@ -1992,6 +2245,7 @@ button {
   transform: rotate(16deg);
   z-index: 1;
 }
+
 .ex-19 .c-5 {
   width: 30px;
   height: 15px;
@@ -2005,6 +2259,7 @@ button {
   left: 53px;
   z-index: 2;
 }
+
 .ex-19 .c-6 {
   background: #fed30f;
   width: 0px;
@@ -2016,6 +2271,7 @@ button {
   transform: rotate(19deg);
   z-index: 5;
 }
+
 .ex-19 .c-7 {
   background: #fed30f;
   width: 65px;
@@ -2028,6 +2284,7 @@ button {
   border-left: 1px solid;
   z-index: 6;
 }
+
 .ex-19 .c-7::before {
   content: "";
   background-color: #fed30f;
@@ -2040,6 +2297,7 @@ button {
   right: 91%;
   z-index: 6;
 }
+
 .ex-19 .c-7::after {
   content: "";
   width: 5px;
@@ -2052,6 +2310,7 @@ button {
   z-index: 6;
   transform: rotate(-90deg);
 }
+
 .ex-19 .c-8 {
   background: #d1b271;
   width: 60px;
@@ -2063,6 +2322,7 @@ button {
   right: 8px;
   z-index: 10;
 }
+
 .ex-19 .c-8::after {
   content: "";
   position: absolute;
@@ -2076,6 +2336,7 @@ button {
   transform: rotate(20deg);
   z-index: 100;
 }
+
 .ex-19 .c-9 {
   background: #d1b271;
   width: 30px;
@@ -2088,6 +2349,7 @@ button {
   transform: rotate(20deg);
   z-index: 24;
 }
+
 .ex-19 .c-9::after {
   content: "";
   background: #d1b271;
@@ -2101,6 +2363,7 @@ button {
   transform: rotate(1deg);
   z-index: 24;
 }
+
 .ex-19 .c-9::before {
   content: "";
   background: #d1b271;
@@ -2111,6 +2374,7 @@ button {
   left: -26px;
   z-index: 27;
 }
+
 .ex-19 .c-10 {
   background: #ffffff;
   width: 24px;
@@ -2123,6 +2387,7 @@ button {
   right: 37px;
   z-index: 10;
 }
+
 .ex-19 .c-10::after {
   content: "";
   background: #ffffff;
@@ -2136,6 +2401,7 @@ button {
   right: 32px;
   z-index: 10;
 }
+
 /* End ex-19 */
 /* start ex-20 */
 .ex-20 .container {
@@ -2150,6 +2416,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
 .ex-20 .c-1 {
   position: absolute;
   width: 350px;
@@ -2157,16 +2424,19 @@ button {
   background: #cdc9cd;
   bottom: 0%;
 }
+
 @media (max-width: 767px) {
   .ex-20 .c-1 {
     scale: 0.6;
     bottom: -36px;
     margin-left: 20px;
   }
+
   .ex-20 .container {
     width: 400px;
   }
 }
+
 .ex-20 .c-1::after {
   content: "";
   position: absolute;
@@ -2178,6 +2448,7 @@ button {
   transform: skewx(330deg);
   z-index: 0;
 }
+
 .ex-20 .c-1::before {
   content: "";
   position: absolute;
@@ -2189,6 +2460,7 @@ button {
   transform: skew(30deg);
   z-index: 0;
 }
+
 .ex-20 .c-1-1 {
   background: #fff;
   width: 180px;
@@ -2200,6 +2472,7 @@ button {
   border: 1px solid;
   z-index: 4;
 }
+
 .ex-20 .c-1-1::after {
   content: "";
   background: rgb(255 255 255);
@@ -2213,6 +2486,7 @@ button {
   border-bottom: 0px;
   transform: translate(50%) rotate(45deg);
 }
+
 .ex-20 .c-1-1::before {
   content: "";
   background: #333;
@@ -2234,6 +2508,7 @@ button {
   transform: translate(50%);
   z-index: 1;
 }
+
 .ex-20 .c-1-2 {
   background: #ffffff;
   position: absolute;
@@ -2244,6 +2519,7 @@ button {
   border-bottom: 4px solid #257582;
   z-index: 3;
 }
+
 .ex-20 .c-1-3 {
   background: #4d2418;
   position: absolute;
@@ -2255,6 +2531,7 @@ button {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
+
 .ex-20 .c-1-3::after {
   content: "";
   background: #4d2418;
@@ -2274,6 +2551,7 @@ button {
   background-size: 10px 15px;
   z-index: 5;
 }
+
 .ex-20 .c-1-3::before {
   content: "";
   background: #4d2418;
@@ -2293,6 +2571,7 @@ button {
   background-size: 10px 15px;
   z-index: 5;
 }
+
 .ex-20 .c-3 {
   background: #ffffff;
   position: absolute;
@@ -2303,6 +2582,7 @@ button {
   border-bottom: 4px solid #257582;
   z-index: 0;
 }
+
 .ex-20 .c-4 {
   background: #4d2418;
   position: absolute;
@@ -2321,6 +2601,7 @@ button {
   background-size: 10px 15px;
   z-index: 5;
 }
+
 .ex-20 .c-4::after {
   content: "";
   background: #4d2418;
@@ -2342,6 +2623,7 @@ button {
   border-top-right-radius: 100px;
   z-index: 5;
 }
+
 .ex-20 .c-5 {
   background: #4d2418;
   position: absolute;
@@ -2360,6 +2642,7 @@ button {
   background-size: 10px 15px;
   z-index: 0;
 }
+
 .ex-20 .c-5::after {
   content: "";
   background: #4d2418;
@@ -2381,6 +2664,7 @@ button {
   border-top-right-radius: 100px;
   z-index: 0;
 }
+
 .ex-20 .c-6 {
   position: absolute;
   bottom: 0px;
@@ -2388,12 +2672,15 @@ button {
   z-index: 100;
   scale: 0.8;
 }
+
 .ex-20 .c-6 .c-1-1 {
   background: #848284;
 }
+
 .ex-20 .c-6 .c-1-1::after {
   background: #848284;
 }
+
 .ex-20 .c-7 {
   background: #94ab38;
   width: 90px;
@@ -2407,6 +2694,7 @@ button {
   z-index: 1000;
   margin-right: 10px;
 }
+
 .ex-20 .c-7::after {
   content: "";
   background: #3c2703;
@@ -2418,6 +2706,7 @@ button {
   transform: rotate(45deg);
   z-index: 101;
 }
+
 .ex-20 .c-8 {
   background: #3c2703;
   width: 10px;
@@ -2427,6 +2716,7 @@ button {
   scale: 0.9;
   left: 115%;
 }
+
 .ex-20 .c-8::after {
   content: "";
   background: #a5b85b;
@@ -2440,6 +2730,7 @@ button {
   transform: rotate(-45deg);
   z-index: 100;
 }
+
 /* End ex-20 */
 /* start ex-21 */
 .ex-21 .container {
@@ -2447,6 +2738,7 @@ button {
   height: 400px;
   z-index: -1;
 }
+
 .ex-21 .c-1 {
   background: #fc6971;
   width: 70%;
@@ -2457,6 +2749,7 @@ button {
   border-radius: 200px 200px 0 0;
   z-index: 10;
 }
+
 .ex-21 .c-1::before {
   content: "";
   background: rgb(255, 255, 255);
@@ -2468,6 +2761,7 @@ button {
   border-radius: 50%;
   z-index: 2;
 }
+
 .ex-21 .c-1::after {
   content: "";
   background: rgb(255, 255, 255);
@@ -2479,6 +2773,7 @@ button {
   border-radius: 50%;
   z-index: 2;
 }
+
 .ex-21 .c-2 {
   background: #2f5662;
   width: 60%;
@@ -2488,6 +2783,7 @@ button {
   left: 20%;
   border-radius: 50px 50px 0 0;
 }
+
 .ex-21 .c-2::before {
   content: "";
   background: #2f5662;
@@ -2498,6 +2794,7 @@ button {
   left: 4%;
   rotate: -32deg;
 }
+
 .ex-21 .c-2::after {
   content: "";
   background: #2f5662;
@@ -2508,6 +2805,7 @@ button {
   right: 4%;
   rotate: 32deg;
 }
+
 .ex-21 .c-3 {
   background: #efcecc;
   width: 20%;
@@ -2517,6 +2815,7 @@ button {
   right: 40%;
   border-radius: 100px;
 }
+
 .ex-21 .c-4 {
   background: #efcecc;
   width: 50%;
@@ -2527,6 +2826,7 @@ button {
   border-radius: 100px;
   box-shadow: 0px 4px 20px black;
 }
+
 .ex-21 .c-5 {
   background: #000000;
   width: 44%;
@@ -2537,6 +2837,7 @@ button {
   border-radius: 100px;
   z-index: -1;
 }
+
 .ex-21 .c-6 {
   background: #ffffff;
   width: 40px;
@@ -2547,6 +2848,7 @@ button {
   border-radius: 100px;
   z-index: 10;
 }
+
 .ex-21 .c-6::before {
   content: "";
   background: #000000;
@@ -2559,6 +2861,7 @@ button {
   border-radius: 100px;
   z-index: 15;
 }
+
 .ex-21 .c-6::after {
   content: "";
   border-top: 4px solid #000;
@@ -2570,6 +2873,7 @@ button {
   border-radius: 100% 100% 0 0;
   z-index: 10;
 }
+
 .ex-21 .c-7 {
   background: #ffffff;
   width: 40px;
@@ -2580,6 +2884,7 @@ button {
   border-radius: 100px;
   z-index: 10;
 }
+
 .ex-21 .c-7::after {
   content: "";
   border-top: 4px solid #000;
@@ -2591,6 +2896,7 @@ button {
   border-radius: 100% 100% 0 0;
   z-index: 10;
 }
+
 .ex-21 .c-7::before {
   content: "";
   background: #000000;
@@ -2603,6 +2909,7 @@ button {
   border-radius: 100px;
   z-index: 15;
 }
+
 .ex-21 .c-8 {
   border: 30px solid;
   border-radius: 50%;
@@ -2613,6 +2920,7 @@ button {
   rotate: 45deg;
   z-index: 10;
 }
+
 /* End ex-21 */
 /* start ex-22 */
 .ex-22 .container {
@@ -2625,6 +2933,7 @@ button {
   margin-top: -80px;
   margin-bottom: -80px;
 }
+
 .ex-22 .c-1 {
   background: linear-gradient(to right, #f9f9f9, #d9d9d9);
   position: absolute;
@@ -2635,11 +2944,13 @@ button {
   z-index: 5;
   border-radius: 0 0 45% 45%;
 }
+
 @media (max-width: 767px) {
   .ex-22 .container {
     margin-left: -85px;
   }
 }
+
 .ex-22 .c-2 {
   background: linear-gradient(to right, #f9f9f9, #d9d9d9);
   position: absolute;
@@ -2650,6 +2961,7 @@ button {
   left: 22.5%;
   border-radius: 46%;
 }
+
 .ex-22 .c-3 {
   content: "";
   background: linear-gradient(to right, #acacac, #dadadc);
@@ -2661,6 +2973,7 @@ button {
   border-radius: 50%;
   overflow: hidden;
 }
+
 .ex-22 .c-3::before {
   content: "";
   background: linear-gradient(to right, #c57e65, #e28462);
@@ -2671,6 +2984,7 @@ button {
   left: 2%;
   border-radius: 50%;
 }
+
 .ex-22 .c-4 {
   width: 160px;
   height: 192px;
@@ -2681,6 +2995,7 @@ button {
   top: 196px;
   right: 58px;
 }
+
 .ex-22 .c-5 {
   background: linear-gradient(to right, #f9f9f9, #e7e7e7);
   width: 89%;
@@ -2691,6 +3006,7 @@ button {
   top: 342px;
   right: 24px;
 }
+
 .ex-22 .c-5::after {
   content: "";
   background: radial-gradient(rgba(0, 0, 0, 0.2) 25%, transparent, transparent);
@@ -2700,6 +3016,7 @@ button {
   top: 20px;
   right: 5px;
 }
+
 .ex-22 .c-6 span {
   position: relative;
   margin: 0 2px 50px;
@@ -2715,28 +3032,34 @@ button {
   filter: blur(5px);
   animation-delay: calc(var(--i) * -0.5s);
 }
+
 @keyframes animate-1 {
   0% {
     transform: translatey(0) scalex(1);
     opacity: 0;
   }
+
   15% {
     opacity: 1;
   }
+
   50% {
     transform: translatey(-50px) scalex(5);
   }
+
   100% {
     opacity: 0;
     transform: translatey(-100px) scalex(10);
   }
 }
+
 /* End ex-22 */
 /* start ex-23 */
 .ex-23 .container {
   background: #980b01;
   position: relative;
 }
+
 .ex-23 .c-1 {
   width: 40%;
   height: 60%;
@@ -2751,6 +3074,7 @@ button {
   left: 30%;
   z-index: 3;
 }
+
 .ex-23 .c-1::after {
   content: "";
   width: 150%;
@@ -2762,6 +3086,7 @@ button {
   top: 83%;
   left: -25%;
 }
+
 .ex-23 .c-1::before {
   content: "";
   width: 90%;
@@ -2773,6 +3098,7 @@ button {
   left: 5%;
   z-index: 6;
 }
+
 .ex-23 .c-2 {
   content: "";
   width: 30%;
@@ -2785,6 +3111,7 @@ button {
   left: 58%;
   z-index: 1;
 }
+
 .ex-23 .c-3 {
   background: linear-gradient(
     to right,
@@ -2798,6 +3125,7 @@ button {
   top: -10%;
   z-index: 5;
 }
+
 .ex-23 .c-4 span {
   top: 32px;
   width: 9px;
@@ -2811,23 +3139,27 @@ button {
   animation: animate 3s linear infinite;
   animation-delay: calc(var(--i) * 1s);
 }
+
 @keyframes animate {
   0% {
     transform: translatey(0);
     opacity: 0.7;
     filter: blur(2px);
   }
+
   100% {
     opacity: 0;
     transform: translatey(-50px);
     filter: blur(5px);
   }
 }
+
 /* End ex-23 */
 /* start ex-24 */
 .ex-24 .container {
   background: #272627;
 }
+
 .ex-24 .c-1 {
   background-image: url(../images/clock-1.jpg);
   background-size: cover;
@@ -2841,9 +3173,11 @@ button {
   border-radius: 50%;
   transition: 0.4s;
 }
+
 .ex-24 .c-1:hover {
   background-image: url(../images/clock-2.jpeg);
 }
+
 .ex-24 .c-2 {
   content: "";
   width: 15px;
@@ -2855,6 +3189,7 @@ button {
   left: calc(50% - 7.5px);
   z-index: 5;
 }
+
 .ex-24 .c-3 {
   width: 33%;
   height: 7px;
@@ -2867,6 +3202,7 @@ button {
   animation: rotate 90s linear infinite;
   transform: rotate(0deg);
 }
+
 .ex-24 .c-4 {
   width: 25%;
   height: 6px;
@@ -2879,6 +3215,7 @@ button {
   animation: rotate 30s linear infinite;
   transform: rotate(0deg);
 }
+
 .ex-24 .c-5 {
   width: 30%;
   height: 3px;
@@ -2891,17 +3228,21 @@ button {
   animation: rotate 10s linear infinite;
   transform: rotate(0);
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(-90deg);
   }
+
   50% {
     transform: rotate(90deg);
   }
+
   100% {
     transform: rotate(270deg);
   }
 }
+
 /* End ex-24 */
 /* Start ex-25 */
 .ex-25 .container {
@@ -2909,6 +3250,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-25 .a {
   width: 100%;
   height: 80px;
@@ -2916,6 +3258,7 @@ button {
   position: absolute;
   bottom: 0;
 }
+
 .ex-25 .b {
   width: 100%;
   height: 40px;
@@ -2923,6 +3266,7 @@ button {
   position: absolute;
   bottom: 80px;
 }
+
 .ex-25 .c {
   width: 20px;
   height: 90px;
@@ -2931,6 +3275,7 @@ button {
   bottom: 120px;
   left: 50px;
 }
+
 .ex-25 .d {
   width: 50px;
   height: 50px;
@@ -2940,6 +3285,7 @@ button {
   bottom: 180px;
   left: 35px;
 }
+
 .ex-25 .e {
   width: 40px;
   height: 40px;
@@ -2949,6 +3295,7 @@ button {
   bottom: 180px;
   left: 60px;
 }
+
 .ex-25 .f {
   width: 40px;
   height: 40px;
@@ -2958,6 +3305,7 @@ button {
   bottom: 180px;
   left: 20px;
 }
+
 .ex-25 .g {
   width: 40px;
   height: 40px;
@@ -2967,6 +3315,7 @@ button {
   bottom: 200px;
   left: 40px;
 }
+
 .ex-25 .h {
   width: 40px;
   height: 40px;
@@ -2976,6 +3325,7 @@ button {
   bottom: 110px;
   right: 50px;
 }
+
 .ex-25 .i {
   width: 40px;
   height: 40px;
@@ -2985,6 +3335,7 @@ button {
   bottom: 130px;
   right: 50px;
 }
+
 /* End ex-25 */
 /* start ex-26 */
 .ex-26 .container {
@@ -2992,6 +3343,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-26 .shadow {
   position: absolute;
   bottom: 0;
@@ -2999,6 +3351,7 @@ button {
   transform: translate(-50%);
   filter: drop-shadow(0 0 20vmin #fff);
 }
+
 .ex-26 .clothes {
   border-top: 30px solid #000;
   width: 190px;
@@ -3007,6 +3360,7 @@ button {
   bottom: -15px;
   border-radius: 100%;
 }
+
 .ex-26 .clothes::after {
   content: "";
   border: 118px solid;
@@ -3016,6 +3370,7 @@ button {
   left: -25px;
   border-radius: 100%;
 }
+
 .ex-26 .neck {
   background: #fff;
   width: 45px;
@@ -3026,6 +3381,7 @@ button {
   border: 3px solid rgb(0, 0, 0);
   border-radius: 100% 100% 30px 30px;
 }
+
 .ex-26 .fc {
   background: #fff;
   border: 3.5px solid #000;
@@ -3034,6 +3390,7 @@ button {
   bottom: 0;
   box-shadow: inset -1.5vmin 0 #0002;
 }
+
 .ex-26 .face .bottom-1 {
   width: 60px;
   height: 90px;
@@ -3044,6 +3401,7 @@ button {
   border-top: none;
   border-left: none;
 }
+
 .ex-26 .face .bottom-2 {
   width: 60px;
   height: 90px;
@@ -3055,6 +3413,7 @@ button {
   border-right: none;
   box-shadow: none;
 }
+
 .ex-26 .face .bottom-2::after {
   content: "";
   position: absolute;
@@ -3065,6 +3424,7 @@ button {
   right: -1px;
   rotate: 30deg;
 }
+
 .ex-26 .face .middle {
   width: 106px;
   height: 70px;
@@ -3075,6 +3435,7 @@ button {
   z-index: 10;
   bottom: 67px;
 }
+
 .ex-26 .face .top::after {
   content: "";
   position: absolute;
@@ -3084,6 +3445,7 @@ button {
   bottom: -54px;
   right: 23px;
 }
+
 .ex-26 .face .top {
   width: 125px;
   height: 107px;
@@ -3093,6 +3455,7 @@ button {
   z-index: 11;
   bottom: 97px;
 }
+
 .ex-26 .face .top .line-1 {
   width: 50px;
   height: 30px;
@@ -3104,6 +3467,7 @@ button {
   left: 50%;
   transform: translate(-50%);
 }
+
 .ex-26 .face .top .line-2 {
   width: 30px;
   height: 20px;
@@ -3115,6 +3479,7 @@ button {
   left: 50%;
   transform: translate(-50%);
 }
+
 .ex-26 .eye {
   width: 25px;
   height: 22px;
@@ -3125,6 +3490,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-26 .eye::after {
   content: "";
   width: 6px;
@@ -3136,6 +3502,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-26 .eye-2 {
   width: 25px;
   height: 22px;
@@ -3146,6 +3513,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-26 .eye-2::after {
   content: "";
   width: 6px;
@@ -3157,6 +3525,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-26 .face .top .mouth {
   width: 63px;
   height: 68px;
@@ -3169,6 +3538,7 @@ button {
   transform: translate(-50%);
   z-index: 50;
 }
+
 .ex-26 .face .top .mouth-1 {
   border: 10px solid;
   border-color: rgb(255, 255, 255) transparent transparent transparent;
@@ -3177,6 +3547,7 @@ button {
   right: 35px;
   z-index: 55;
 }
+
 .ex-26 .face .top .mouth-2 {
   border: 10px solid;
   border-color: rgb(255, 255, 255) transparent transparent transparent;
@@ -3185,6 +3556,7 @@ button {
   right: 5px;
   z-index: 55;
 }
+
 .ex-26 .face .top .mouth::after {
   content: "";
   border: 3px solid;
@@ -3194,6 +3566,7 @@ button {
   right: 29px;
   z-index: 55;
 }
+
 .ex-26 .nose {
   width: 3px;
   height: 6px;
@@ -3204,6 +3577,7 @@ button {
   position: absolute;
   z-index: 100;
 }
+
 .ex-26 .nose::after {
   content: "";
   width: 3px;
@@ -3215,6 +3589,7 @@ button {
   position: absolute;
   z-index: 100;
 }
+
 .ex-26 .nose::before {
   content: "";
   width: 9px;
@@ -3227,6 +3602,7 @@ button {
   position: absolute;
   z-index: 100;
 }
+
 /* End ex-26 */
 /* start ex-27 */
 .ex-27 .container {
@@ -3234,6 +3610,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-27 .a {
   width: 14%;
   height: 76%;
@@ -3244,6 +3621,7 @@ button {
   transform: skewx(-25deg);
   z-index: 2;
 }
+
 .ex-27 .b {
   width: 14%;
   height: 76%;
@@ -3254,6 +3632,7 @@ button {
   transform: skewx(25deg);
   z-index: 2;
 }
+
 .ex-27 .c {
   width: 7%;
   height: 59%;
@@ -3265,6 +3644,7 @@ button {
   transform: skewx(25.5deg);
   z-index: 3;
 }
+
 .ex-27 .c::after {
   content: "";
   width: 40%;
@@ -3275,6 +3655,7 @@ button {
   left: 101%;
   z-index: 3;
 }
+
 .ex-27 .c::before {
   content: "";
   width: 40%;
@@ -3285,6 +3666,7 @@ button {
   left: -41%;
   z-index: 3;
 }
+
 .ex-27 .d {
   width: 7%;
   height: 38%;
@@ -3296,6 +3678,7 @@ button {
   transform: skewx(-22.5deg);
   z-index: 3;
 }
+
 .ex-27 .d::after {
   content: "";
   width: 40%;
@@ -3306,6 +3689,7 @@ button {
   left: 101%;
   z-index: 3;
 }
+
 .ex-27 .d::before {
   content: "";
   width: 40%;
@@ -3316,6 +3700,7 @@ button {
   left: -41%;
   z-index: 3;
 }
+
 .ex-27 .e {
   width: 25px;
   height: 25px;
@@ -3326,6 +3711,7 @@ button {
   left: 47%;
   z-index: 5;
 }
+
 /* End ex-27 */
 /* Start ex-28 */
 .ex-28 .container {
@@ -3333,6 +3719,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-28 .a {
   width: 150px;
   height: 150px;
@@ -3348,6 +3735,7 @@ button {
   top: 35%;
   left: 46%;
 }
+
 .ex-28 .a::after {
   content: "";
   width: 35px;
@@ -3358,6 +3746,7 @@ button {
   bottom: 50%;
   left: 54%;
 }
+
 .ex-28 .b {
   width: 150px;
   height: 150px;
@@ -3378,6 +3767,7 @@ button {
   top: 35%;
   left: 9%;
 }
+
 .ex-28 .b::after {
   content: "";
   width: 100px;
@@ -3388,6 +3778,7 @@ button {
   bottom: 100%;
   left: 16%;
 }
+
 .ex-28 .b::before {
   content: "";
   width: 100px;
@@ -3398,6 +3789,7 @@ button {
   bottom: 100%;
   left: 82%;
 }
+
 /* End ex-28 */
 /* Start ex-29 */
 .ex-29 .container {
@@ -3405,6 +3797,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-29 .a {
   background: #5ebcfa;
   position: absolute;
@@ -3414,6 +3807,7 @@ button {
   top: 75%;
   z-index: 20;
 }
+
 .ex-29 .a::after {
   content: "";
   background: #191919;
@@ -3424,6 +3818,7 @@ button {
   bottom: 95%;
   z-index: 10;
 }
+
 .ex-29 .b {
   background: #5ebcfa;
   position: absolute;
@@ -3432,6 +3827,7 @@ button {
   left: 25%;
   top: 85%;
 }
+
 .ex-29 .c {
   background: #5ebcfa;
   position: absolute;
@@ -3440,6 +3836,7 @@ button {
   left: calc(50% - 7.5px);
   top: 40%;
 }
+
 .ex-29 .d {
   position: absolute;
   height: 0px;
@@ -3451,6 +3848,7 @@ button {
   transform: rotate(33deg);
   top: 47%;
 }
+
 .ex-29 .e {
   content: "";
   position: absolute;
@@ -3462,6 +3860,7 @@ button {
   bottom: 64%;
   z-index: 15;
 }
+
 .ex-29 .f {
   /* background: #0ba75c; */
   position: absolute;
@@ -3474,6 +3873,7 @@ button {
   transform: rotate(328deg);
   top: 47%;
 }
+
 .ex-29 .g {
   content: "";
   position: absolute;
@@ -3485,6 +3885,7 @@ button {
   bottom: 63.5%;
   z-index: 15;
 }
+
 .ex-29 .i {
   position: absolute;
   height: 0px;
@@ -3496,6 +3897,7 @@ button {
   left: 75px;
   top: 194px;
 }
+
 .ex-29 .j {
   position: absolute;
   height: 0px;
@@ -3507,6 +3909,7 @@ button {
   left: 240px;
   top: 194px;
 }
+
 .ex-29 .k {
   position: absolute;
   height: 95px;
@@ -3518,6 +3921,7 @@ button {
   left: 115px;
   top: 68px;
 }
+
 .ex-29 .l {
   position: absolute;
   height: 52px;
@@ -3529,6 +3933,7 @@ button {
   left: 152px;
   top: 18px;
 }
+
 /* End ex-29 */
 /* Start ex-30 */
 .ex-30 .container {
@@ -3536,6 +3941,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-30 .a {
   width: 70px;
   height: 70px;
@@ -3545,6 +3951,7 @@ button {
   left: 65px;
   border-radius: 15px;
 }
+
 .ex-30 .b {
   width: 0px;
   height: 0px;
@@ -3554,6 +3961,7 @@ button {
   top: calc(50% - 100px);
   left: -10px;
 }
+
 .ex-30 .c {
   background: #191919;
   width: 100px;
@@ -3566,6 +3974,7 @@ button {
   border-radius: 0 100px 100px 0;
   z-index: 5;
 }
+
 .ex-30 .d {
   background: #191919;
   width: 80px;
@@ -3578,6 +3987,7 @@ button {
   border-radius: 0 100px 100px 0;
   z-index: 8;
 }
+
 .ex-30 .e {
   background: #191919;
   width: 60px;
@@ -3590,6 +4000,7 @@ button {
   border-radius: 0 100px 100px 0;
   z-index: 8;
 }
+
 /* End ex-30 */
 /* Start ex-31 */
 .ex-31 .container {
@@ -3597,18 +4008,20 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-31 .a {
   width: 200px;
   height: 155px;
-  border: solid 20px #6E91C9;
+  border: solid 20px #6e91c9;
   border-bottom: 0;
   border-radius: 100px 100px 0px 0px;
   position: absolute;
   top: 40px;
   left: 100px;
 }
+
 .ex-31 .b {
-  background: #6E91C9;
+  background: #6e91c9;
   width: 58px;
   height: 82px;
   border-radius: 0px 60px 100px 100px;
@@ -3616,8 +4029,9 @@ button {
   top: 160px;
   left: 100px;
 }
+
 .ex-31 .c {
-  background: #6E91C9;
+  background: #6e91c9;
   width: 58px;
   height: 82px;
   border-radius: 60px 0px 100px 100px;
@@ -3625,6 +4039,7 @@ button {
   top: 160px;
   left: 242px;
 }
+
 /* End ex-31 */
 /* Start ex-32 */
 .ex-32 .container {
@@ -3632,28 +4047,31 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-32 .a {
   width: 240px;
   height: 240px;
   border-radius: 100%;
   background: #871b13;
-  border:8px #000 solid;
-  position: absolute ;
-  top:calc(50% - 120px);
-  left:calc(50% - 120px);
+  border: 8px #000 solid;
+  position: absolute;
+  top: calc(50% - 120px);
+  left: calc(50% - 120px);
   overflow: hidden;
 }
-.ex-32  .b {
+
+.ex-32 .b {
   width: 120px;
   height: 120px;
   background: #000;
-  border:15px black solid;
-  border-radius:100%;
-  position: absolute ;
-  top:calc(50% - 60px);
-  left:calc(50% - 60px);
+  border: 15px black solid;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
 }
-.ex-32  .c {
+
+.ex-32 .c {
   width: 120px;
   height: 120px;
   border: 15px black solid;
@@ -3662,7 +4080,8 @@ button {
   top: 0px;
   left: -39px;
 }
-.ex-32  .d {
+
+.ex-32 .d {
   width: 120px;
   height: 120px;
   border: 15px black solid;
@@ -3672,7 +4091,8 @@ button {
   left: 146px;
   z-index: 100;
 }
-.ex-32  .e {
+
+.ex-32 .e {
   width: 120px;
   height: 120px;
   border: 15px black solid;
@@ -3682,7 +4102,8 @@ button {
   left: 53px;
   z-index: 100;
 }
-.ex-32  .f {
+
+.ex-32 .f {
   width: 90px;
   height: 90px;
   border: 15px hsl(21deg 85% 54%) solid;
@@ -3692,6 +4113,7 @@ button {
   left: 68px;
   z-index: 100;
 }
+
 /* End ex-32 */
 /* Start ex-33 */
 .ex-33 .container {
@@ -3699,6 +4121,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-33 .a {
   background: white;
   width: 160px;
@@ -3708,6 +4131,7 @@ button {
   top: calc(50% - 50px);
   left: calc(50% - 80px);
 }
+
 .ex-33 .a::after {
   content: "";
   background: black;
@@ -3719,6 +4143,7 @@ button {
   right: 52%;
   rotate: -30deg;
 }
+
 .ex-33 .a::before {
   content: "";
   background: black;
@@ -3730,14 +4155,29 @@ button {
   left: 52%;
   rotate: 30deg;
 }
+
 .ex-33 .b {
-  background: linear-gradient(to right, #fff 0%, #fff 25%, #000 25%, #000 35%,#fff 35%,#fff 60%,#000 60%,#000 70%,#fff 70%,#fff 95%,#000 95%);
+  background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 25%,
+    #000 25%,
+    #000 35%,
+    #fff 35%,
+    #fff 60%,
+    #000 60%,
+    #000 70%,
+    #fff 70%,
+    #fff 95%,
+    #000 95%
+  );
   width: 55px;
   height: 17px;
   position: absolute;
   top: calc(50% - -55px);
   left: calc(50% - 26px);
 }
+
 .ex-33 .c {
   background: white;
   width: 20px;
@@ -3747,6 +4187,7 @@ button {
   left: calc(50% - 93px);
   rotate: -45deg;
 }
+
 .ex-33 .c::after {
   content: "";
   background: #fff;
@@ -3757,6 +4198,7 @@ button {
   top: -15px;
   left: -15px;
 }
+
 .ex-33 .c::before {
   content: "";
   background: #fff;
@@ -3767,6 +4209,7 @@ button {
   top: -15px;
   right: -15px;
 }
+
 .ex-33 .d {
   background: white;
   width: 20px;
@@ -3776,6 +4219,7 @@ button {
   left: calc(50% - -73px);
   rotate: 45deg;
 }
+
 .ex-33 .d::after {
   content: "";
   background: #fff;
@@ -3786,6 +4230,7 @@ button {
   top: -15px;
   left: -15px;
 }
+
 .ex-33 .d::before {
   content: "";
   background: #fff;
@@ -3796,6 +4241,7 @@ button {
   top: -15px;
   right: -15px;
 }
+
 .ex-33 .e {
   background: white;
   width: 20px;
@@ -3805,6 +4251,7 @@ button {
   left: calc(50% - 93px);
   rotate: -135deg;
 }
+
 .ex-33 .e::after {
   content: "";
   background: #fff;
@@ -3815,6 +4262,7 @@ button {
   top: -15px;
   left: -15px;
 }
+
 .ex-33 .e::before {
   content: "";
   background: #fff;
@@ -3825,6 +4273,7 @@ button {
   top: -15px;
   right: -15px;
 }
+
 .ex-33 .f {
   background: white;
   width: 20px;
@@ -3834,6 +4283,7 @@ button {
   left: calc(50% - -73px);
   rotate: 135deg;
 }
+
 .ex-33 .f::after {
   content: "";
   background: #fff;
@@ -3844,6 +4294,7 @@ button {
   top: -15px;
   left: -15px;
 }
+
 .ex-33 .f::before {
   content: "";
   background: #fff;
@@ -3854,6 +4305,7 @@ button {
   top: -15px;
   right: -15px;
 }
+
 /* End ex-33 */
 /* Start ex-34 */
 .ex-34 .container {
@@ -3861,8 +4313,9 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-34 .a {
-  background: linear-gradient(to right, #fff 0%, #fff 50%,#ffdeb9 50%);
+  background: linear-gradient(to right, #fff 0%, #fff 50%, #ffdeb9 50%);
   width: 140px;
   height: 115px;
   border-radius: 0 0 100% 100%;
@@ -3871,6 +4324,7 @@ button {
   left: calc(50% - 80px);
   z-index: 2;
 }
+
 .ex-34 .a::after {
   content: "";
   width: 0px;
@@ -3880,9 +4334,10 @@ button {
   border-color: transparent transparent black black;
   position: absolute;
   top: 60%;
-  left: calc(50% - 20px );
+  left: calc(50% - 20px);
   rotate: -45deg;
 }
+
 .ex-34 .b {
   width: 0px;
   height: 0px;
@@ -3895,6 +4350,7 @@ button {
   rotate: -103deg;
   z-index: 3;
 }
+
 .ex-34 .c {
   width: 0px;
   height: 0px;
@@ -3907,6 +4363,7 @@ button {
   rotate: 13deg;
   z-index: 3;
 }
+
 .ex-34 .d {
   width: 0px;
   height: 0px;
@@ -3919,6 +4376,7 @@ button {
   rotate: -45deg;
   z-index: 2;
 }
+
 .ex-34 .e {
   width: 0px;
   height: 0px;
@@ -3931,6 +4389,7 @@ button {
   rotate: -25deg;
   z-index: 1;
 }
+
 .ex-34 .f {
   width: 0px;
   height: 0px;
@@ -3943,6 +4402,7 @@ button {
   rotate: -65deg;
   z-index: 1;
 }
+
 .ex-34 .eye {
   width: 25px;
   height: 22px;
@@ -3953,6 +4413,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-34 .eye::after {
   content: "";
   width: 6px;
@@ -3964,6 +4425,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 .ex-34 .eye-2 {
   width: 25px;
   height: 22px;
@@ -3974,6 +4436,7 @@ button {
   border-radius: 50%;
   z-index: 5;
 }
+
 .ex-34 .eye-2::after {
   content: "";
   width: 6px;
@@ -3985,6 +4448,7 @@ button {
   border-radius: 50%;
   z-index: 20;
 }
+
 /* End ex-34 */
 /* Start ex-35 */
 .ex-35 .container {
@@ -3992,6 +4456,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-35 .a {
   background: hsl(202deg 16% 33%);
   width: 140px;
@@ -4001,6 +4466,7 @@ button {
   left: calc(50% - 76px);
   rotate: 45deg;
 }
+
 .ex-35 .c {
   background: hsl(66deg 16% 46%);
   width: 150px;
@@ -4013,6 +4479,7 @@ button {
   z-index: 3;
   box-shadow: inset -1px 20px 0px 0px rgb(0 0 0 / 20%);
 }
+
 .ex-35 .d {
   position: absolute;
   border: 40px solid;
@@ -4022,6 +4489,7 @@ button {
   left: 26px;
   z-index: 2;
 }
+
 .ex-35 .e {
   position: absolute;
   border: 40px solid;
@@ -4031,6 +4499,7 @@ button {
   left: 112px;
   z-index: 2;
 }
+
 .ex-35 .f {
   background: hsl(9deg 36% 23%);
   width: 50px;
@@ -4042,19 +4511,22 @@ button {
   left: 85px;
   z-index: 3;
 }
-.ex-35 .big-eye{
-  scale: .8;
+
+.ex-35 .big-eye {
+  scale: 0.8;
   position: absolute;
   top: 25px;
   left: 8px;
 }
-.ex-35 .big-eye2{
+
+.ex-35 .big-eye2 {
   position: absolute;
   left: 393px;
   top: 25px;
   transform: rotatey(180deg);
-  scale: .8;
+  scale: 0.8;
 }
+
 /* End ex-35 */
 /* Start ex-36 */
 .ex-36 .container {
@@ -4062,6 +4534,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-36 .a {
   width: 150px;
   height: 150px;
@@ -4072,8 +4545,9 @@ button {
   position: absolute;
   left: calc(50% - 75px);
   top: 117px;
-  scale: .8;
+  scale: 0.8;
 }
+
 .ex-36 .b {
   width: 150px;
   height: 150px;
@@ -4084,8 +4558,9 @@ button {
   position: absolute;
   left: calc(50% - 172px);
   top: 25px;
-  scale: .8;
+  scale: 0.8;
 }
+
 .ex-36 .c {
   width: 150px;
   height: 150px;
@@ -4096,8 +4571,9 @@ button {
   position: absolute;
   left: calc(50% - -21px);
   top: 25px;
-  scale: .8;
+  scale: 0.8;
 }
+
 /* End ex-36 */
 /* Start ex-37 */
 .ex-37 .container {
@@ -4105,6 +4581,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-37 .a {
   background: hsl(344deg 43% 47%);
   width: 200px;
@@ -4114,11 +4591,12 @@ button {
   left: calc(50% - 100px);
   top: calc(50% - 100px);
 }
+
 .ex-37 .b {
   width: 150px;
   height: 150px;
-  border: 30px solid  ;
-  border-color: hsl(54deg 90% 73%) transparent ;
+  border: 30px solid;
+  border-color: hsl(54deg 90% 73%) transparent;
   border-radius: 100%;
   position: absolute;
   left: calc(50% - 75px);
@@ -4128,14 +4606,17 @@ button {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
 @keyframes ex-37 {
   from {
-    rotate: 0deg;;
+    rotate: 0deg;
   }
+
   to {
     rotate: 360deg;
   }
 }
+
 /* End ex-37 */
 /* Start ex-38 */
 .ex-38 .container {
@@ -4143,6 +4624,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-38 .big-eye .c {
   background: #0f212e;
   width: 150px;
@@ -4154,6 +4636,7 @@ button {
   left: 35px;
   z-index: 3;
 }
+
 .ex-38 .big-eye .d {
   position: absolute;
   border: 40px solid;
@@ -4163,6 +4646,7 @@ button {
   left: 26px;
   z-index: 2;
 }
+
 .ex-38 .big-eye .e {
   position: absolute;
   border: 40px solid;
@@ -4172,6 +4656,7 @@ button {
   left: 112px;
   z-index: 2;
 }
+
 .ex-38 .big-eye .f {
   background: #0b2429;
   width: 100px;
@@ -4183,13 +4668,15 @@ button {
   left: 61px;
   z-index: 3;
 }
-.ex-38 .big-eye  {
+
+.ex-38 .big-eye {
   scale: 1.5;
   position: absolute;
   top: -65px;
   left: -78px;
   rotate: -25deg;
 }
+
 /* End ex-38 */
 /* Start ex-39 */
 .ex-39 .container {
@@ -4197,7 +4684,8 @@ button {
   position: relative;
   overflow: hidden;
 }
-.ex-39 .a{
+
+.ex-39 .a {
   width: 90px;
   height: 90px;
   position: absolute;
@@ -4208,7 +4696,8 @@ button {
   border-color: #d86f45 #d86f45 transparent transparent;
   transform: rotate(-45deg);
 }
-.ex-39 .b{
+
+.ex-39 .b {
   background: #d86f45;
   position: absolute;
   left: 155.5px;
@@ -4218,7 +4707,8 @@ button {
   border-color: #d86f45 #d86f45 transparent transparent;
   rotate: 180deg;
 }
-.ex-39 .c{
+
+.ex-39 .c {
   width: 130px;
   height: 130px;
   position: absolute;
@@ -4229,7 +4719,8 @@ button {
   border-color: #d86f45 #d86f45 transparent transparent;
   transform: rotate(135deg);
 }
-.ex-39 .d{
+
+.ex-39 .d {
   width: 170px;
   height: 170px;
   position: absolute;
@@ -4240,7 +4731,8 @@ button {
   border-color: #d86f45 #d86f45 transparent transparent;
   transform: rotate(-45deg);
 }
-.ex-39 .e{
+
+.ex-39 .e {
   width: 210px;
   height: 210px;
   position: absolute;
@@ -4251,14 +4743,17 @@ button {
   border-color: #d86f45 #d86f45 transparent transparent;
   transform: rotate(135deg);
 }
-.ex-39 .f{
+
+.ex-39 .f {
   background: #d86f45;
   position: absolute;
   left: 75.5px;
   bottom: 150px;
   border-radius: 50% 50% 0 0;
   border: solid 10px;
-  border-color: #d86f45 #d86f45 transparent transparent;}
+  border-color: #d86f45 #d86f45 transparent transparent;
+}
+
 /* End ex-39 */
 /* Start ex-40 */
 .ex-40 .container {
@@ -4266,17 +4761,19 @@ button {
   position: relative;
   overflow: hidden;
 }
-.ex-40 .a{
+
+.ex-40 .a {
   width: 120px;
   height: 90px;
   background: #fef1c3;
   position: absolute;
   bottom: 35%;
   left: calc(12.5% + 80px);
-  border-radius: 40% 40% 0 0 ;
+  border-radius: 40% 40% 0 0;
   rotate: 180deg;
 }
-.ex-40 .b{
+
+.ex-40 .b {
   width: 57px;
   height: 72px;
   border: 8px #fef1c3 solid;
@@ -4287,7 +4784,8 @@ button {
   position: absolute;
   rotate: 90deg;
 }
-.ex-40 .c{
+
+.ex-40 .c {
   width: 57px;
   height: 72px;
   border: 8px #fef1c3 solid;
@@ -4298,7 +4796,8 @@ button {
   position: absolute;
   rotate: -90deg;
 }
-.ex-40 .d{
+
+.ex-40 .d {
   width: 32px;
   height: 10px;
   background: #fd5f54;
@@ -4307,7 +4806,8 @@ button {
   bottom: 175px;
   position: absolute;
 }
-.ex-40 .e{
+
+.ex-40 .e {
   width: 32px;
   height: 10px;
   background: #fd5f54;
@@ -4316,7 +4816,8 @@ button {
   bottom: 157px;
   position: absolute;
 }
-.ex-40 .f{
+
+.ex-40 .f {
   width: 30px;
   height: 30px;
   background: #fd5f54;
@@ -4325,6 +4826,7 @@ button {
   bottom: 125px;
   position: absolute;
 }
+
 /* End ex-40 */
 /* Start ex-41 */
 .ex-41 .container {
@@ -4332,6 +4834,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-41 .a {
   width: 20px;
   height: 120px;
@@ -4340,6 +4843,7 @@ button {
   left: calc(50% - 10px);
   bottom: 0px;
 }
+
 .ex-41 .b {
   width: 25px;
   height: 30px;
@@ -4349,6 +4853,7 @@ button {
   left: calc(50% - 12.5px);
   bottom: 110px;
 }
+
 .ex-41 .c {
   width: 60px;
   height: 60px;
@@ -4359,8 +4864,8 @@ button {
   left: calc(50% - 30px);
   bottom: 130px;
   z-index: 2;
-
 }
+
 .ex-41 .c::after {
   content: "";
   width: 30px;
@@ -4371,6 +4876,7 @@ button {
   left: calc(50% - 23px);
   bottom: -12px;
 }
+
 .ex-41 .d {
   content: "";
   width: 60px;
@@ -4382,6 +4888,7 @@ button {
   bottom: 143px;
   z-index: 1;
 }
+
 .ex-41 .e {
   content: "";
   width: 52px;
@@ -4393,6 +4900,7 @@ button {
   bottom: 166px;
   z-index: 2;
 }
+
 .ex-41 .e::before {
   content: "";
   width: 40px;
@@ -4404,6 +4912,7 @@ button {
   bottom: -11px;
   z-index: 2;
 }
+
 .ex-41 .e::after {
   content: "";
   width: 25px;
@@ -4415,6 +4924,7 @@ button {
   bottom: -21px;
   z-index: 2;
 }
+
 /* End ex-41 */
 /* Start ex-42 */
 .ex-42 .container {
@@ -4422,6 +4932,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-42 .a {
   width: 150px;
   height: 200px;
@@ -4432,6 +4943,7 @@ button {
   bottom: 38px;
   rotate: -20deg;
 }
+
 .ex-42 .b {
   width: 150px;
   height: 200px;
@@ -4442,6 +4954,7 @@ button {
   bottom: 38px;
   rotate: 20deg;
 }
+
 .ex-42 .c {
   width: 20px;
   height: 120px;
@@ -4450,6 +4963,7 @@ button {
   left: 194px;
   bottom: 142px;
 }
+
 .ex-42 .d {
   width: 100px;
   height: 120px;
@@ -4460,6 +4974,7 @@ button {
   bottom: 105px;
   rotate: -143deg;
 }
+
 .ex-42 .e {
   width: 100px;
   height: 120px;
@@ -4470,6 +4985,7 @@ button {
   bottom: 49px;
   rotate: -63deg;
 }
+
 /* End ex-42 */
 /* Start ex-43 */
 .ex-43 .container {
@@ -4477,6 +4993,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-43 .a {
   width: 120px;
   height: 120px;
@@ -4486,6 +5003,7 @@ button {
   left: calc(50% - 60px);
   bottom: 30px;
 }
+
 .ex-43 .b {
   width: 80px;
   height: 80px;
@@ -4495,6 +5013,7 @@ button {
   left: calc(50% - 40px);
   bottom: 150px;
 }
+
 .ex-43 .c {
   width: 85px;
   height: 18px;
@@ -4503,6 +5022,7 @@ button {
   left: calc(50% - 40px);
   bottom: 140px;
 }
+
 .ex-43 .d {
   width: 65px;
   height: 10px;
@@ -4512,6 +5032,7 @@ button {
   left: calc(50% - 33px);
   bottom: 144px;
 }
+
 .ex-43 .e {
   width: 10px;
   height: 10px;
@@ -4521,6 +5042,7 @@ button {
   left: calc(50% - 20px);
   bottom: 189px;
 }
+
 .ex-43 .f {
   width: 10px;
   height: 10px;
@@ -4530,6 +5052,7 @@ button {
   left: calc(50% - -8px);
   bottom: 189px;
 }
+
 .ex-43 .g {
   width: 66px;
   height: 7px;
@@ -4538,14 +5061,23 @@ button {
   left: calc(50% - 33px);
   bottom: 224px;
 }
+
 .ex-43 .h {
   width: 54px;
   height: 51px;
-  background: linear-gradient(to bottom ,#000 0%,#000 40%,#fff 40%,#fff 70%,#000 70%);
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 40%,
+    #fff 40%,
+    #fff 70%,
+    #000 70%
+  );
   position: absolute;
   left: calc(50% - 27px);
   bottom: 231px;
 }
+
 .ex-43 .i {
   width: 10px;
   height: 10px;
@@ -4555,8 +5087,9 @@ button {
   left: calc(50% - 5px);
   bottom: 114px;
 }
+
 .ex-43 .i::after {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   background: #000000a8;
@@ -4564,8 +5097,9 @@ button {
   border-radius: 100%;
   bottom: -25px;
 }
+
 .ex-43 .i::before {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   background: #000000a8;
@@ -4573,6 +5107,7 @@ button {
   border-radius: 100%;
   bottom: -50px;
 }
+
 /* End ex-43 */
 /* Start ex-44 */
 .ex-44 .container {
@@ -4580,6 +5115,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-44 .a {
   width: 130px;
   height: 130px;
@@ -4589,6 +5125,7 @@ button {
   left: 20px;
   bottom: calc(50% - 65px);
 }
+
 .ex-44 .b {
   width: 100px;
   height: 100px;
@@ -4599,6 +5136,7 @@ button {
   bottom: calc(50% - 50px);
   z-index: 2;
 }
+
 .ex-44 .c {
   width: 10px;
   height: 50px;
@@ -4609,6 +5147,7 @@ button {
   bottom: calc(50% - 25px);
   z-index: 2;
 }
+
 .ex-44 .d {
   width: 60px;
   height: 60px;
@@ -4620,6 +5159,7 @@ button {
   bottom: calc(50% - 30px);
   z-index: 2;
 }
+
 .ex-44 .e {
   width: 120px;
   height: 30px;
@@ -4629,18 +5169,20 @@ button {
   bottom: calc(50% - 15px);
   z-index: 1;
 }
+
 .ex-44 .f {
   width: 50px;
   height: 48px;
   background: #998236;
   position: absolute;
-  left:325px;
+  left: 325px;
   bottom: calc(50% - 24px);
   z-index: 1;
   border-radius: 10px;
 }
+
 .ex-44 .f::after {
-  content: '';
+  content: "";
   width: 34px;
   height: 5px;
   background: #1b4342;
@@ -4649,8 +5191,9 @@ button {
   left: 8px;
   bottom: calc(50% - -7px);
 }
+
 .ex-44 .f::before {
-  content: '';
+  content: "";
   width: 34px;
   height: 5px;
   background: #1b4342;
@@ -4659,4 +5202,1658 @@ button {
   left: 8px;
   bottom: calc(50% - 12px);
 }
+
 /* End ex-44 */
+/* Start ex-45 */
+.ex-45 .container {
+  background: #14323d;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-45 .a {
+  width: 80%;
+  height: 70%;
+  background: linear-gradient(
+    to right,
+    #ffdf00 20%,
+    #14323d 20%,
+    #14323d 80%,
+    #ffdf00 80%
+  );
+  position: absolute;
+  border-radius: 30px;
+  left: 10%;
+  top: 10%;
+}
+
+.ex-45 .b {
+  width: 60%;
+  height: 50%;
+  background: #14323d;
+  position: absolute;
+  border-radius: 20px;
+  left: 20%;
+  top: 20%;
+}
+
+.ex-45 .b::after {
+  content: "";
+  width: 6%;
+  height: 70px;
+  background: #ffdf00;
+  position: absolute;
+  border-radius: 7px;
+  left: 115%;
+  top: calc(50% - 35px);
+}
+
+.ex-45 .b::before {
+  content: "";
+  width: 6%;
+  height: 70px;
+  background: #ffdf00;
+  position: absolute;
+  border-radius: 7px;
+  left: -21%;
+  top: calc(50% - 35px);
+}
+
+.ex-45 .c {
+  width: 29px;
+  height: 158px;
+  background: linear-gradient(
+    to top,
+    #ffdf00 0%,
+    #ffdf00 16%,
+    #14323d 13%,
+    #14323d 49%,
+    #ffdf00 0%
+  );
+  position: absolute;
+  left: 205px;
+  top: 11%;
+  rotate: 45deg;
+}
+
+.ex-45 .c::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 15px solid;
+  border-color: transparent transparent #ffdf00 transparent;
+  position: absolute;
+  left: 0px;
+  top: -29px;
+}
+
+.ex-45 .c::before {
+  content: "";
+  width: 80px;
+  height: 20px;
+  background: #ffdf00;
+  position: absolute;
+  left: -25px;
+  top: 157px;
+}
+
+.ex-45 .d {
+  width: 25px;
+  height: 70px;
+  border-radius: 7px;
+  background: #ffdf00;
+  position: absolute;
+  left: 131px;
+  top: 51%;
+  rotate: 45deg;
+}
+
+.ex-45 .e {
+  width: 29px;
+  height: 158px;
+  background: #ffdf00;
+  position: absolute;
+  left: 165px;
+  top: 11%;
+  rotate: -45deg;
+  z-index: 4;
+}
+
+.ex-45 .e::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 15px solid;
+  border-color: transparent transparent #ffdf00 transparent;
+  position: absolute;
+  left: 0px;
+  top: -29px;
+}
+
+.ex-45 .e::before {
+  content: "";
+  width: 80px;
+  height: 20px;
+  background: #ffdf00;
+  position: absolute;
+  left: -25px;
+  top: 157px;
+}
+
+.ex-45 .f {
+  width: 25px;
+  height: 70px;
+  border-radius: 7px;
+  background: #ffdf00;
+  position: absolute;
+  left: 246px;
+  top: 51%;
+  rotate: -45deg;
+}
+
+/* End ex-45 */
+/* Start ex-46 */
+.ex-46 .container {
+  background: #191919;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-46 .a {
+  width: 0px;
+  height: 10px;
+  border-radius: 100%;
+  border: 85px solid;
+  border-color: #f9e491 #f9e491 #191919 #f9e491;
+  position: absolute;
+  left: 115px;
+  top: 84px;
+  z-index: 10;
+}
+
+.ex-46 .b {
+  width: 0px;
+  height: 10px;
+  border: 130px solid;
+  border-color: transparent transparent #5077ff transparent;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+}
+
+/* End ex-46 */
+/* Start ex-47 */
+.ex-47 .container {
+  background: #f3ab3c;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-47 .a {
+  width: 340px;
+  height: 340px;
+  background: #998236;
+  position: absolute;
+  border-radius: 100%;
+  left: 30px;
+  top: 160px;
+  z-index: 3;
+}
+
+.ex-47 .b {
+  width: 340px;
+  height: 340px;
+  background: #998236;
+  position: absolute;
+  border-radius: 100%;
+  left: 30px;
+  top: -160px;
+}
+
+.ex-47 .c {
+  width: 260px;
+  height: 260px;
+  border: 30px solid #f3ab3c;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 100%;
+  left: 70px;
+  top: 47px;
+}
+
+/* End ex-47 */
+/* Start ex-48 */
+.ex-48 .container {
+  background: linear-gradient(to bottom, #d25b6f 0%, #d25b6f 50%, #6cb4a9 50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-48 .a {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    #f6e097 0%,
+    #f6e097 50%,
+    #6cb4a9 50%,
+    #6cb4a9 56%,
+    #f6e097 56%,
+    #f6e097 60%,
+    #6cb4a9 60%,
+    #6cb4a9 66%,
+    #f6e097 66%,
+    #f6e097 70%,
+    #6cb4a9 70%,
+    #6cb4a9 76%,
+    #f6e097 76%,
+    #f6e097 80%,
+    #6cb4a9 80%,
+    #6cb4a9 86%,
+    #f6e097 86%,
+    #f6e097 90%,
+    #6cb4a9 90%,
+    #6cb4a9 96%,
+    #f6e097 66%
+  );
+  position: absolute;
+  border-radius: 100%;
+  left: 100px;
+  top: 50px;
+  z-index: 3;
+}
+
+/* End ex-48*/
+/* Start ex-49 */
+.ex-49 .container {
+  background: #5077ff;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-49 .a {
+  width: 250px;
+  height: 250px;
+  background: #191919;
+  position: absolute;
+  border-radius: 100%;
+  left: 73px;
+  top: 26px;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.ex-49 .b {
+  width: 55px;
+  height: 55px;
+  background: #f6e593;
+  position: absolute;
+  border-radius: 100%;
+  left: 48px;
+  top: 55px;
+  z-index: 3;
+}
+
+.ex-49 .c {
+  width: 115px;
+  height: 20px;
+  background: #f6e593;
+  position: absolute;
+  left: 2px;
+  top: 154px;
+  z-index: 3;
+}
+
+.ex-49 .d {
+  width: 27px;
+  height: 20px;
+  background: #d7b740;
+  position: absolute;
+  left: 117px;
+  top: 146px;
+  z-index: 3;
+  transform: skewY(-32deg);
+}
+
+.ex-49 .e {
+  width: 109px;
+  height: 20px;
+  background: #f6e593;
+  position: absolute;
+  left: 144.5px;
+  top: 137px;
+  z-index: 3;
+}
+
+.ex-49 .f-1 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+.ex-49 .f-2 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+/* End ex-49 */
+/* Start ex-50 */
+.ex-50 .container {
+  background: #998236;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-50 .a {
+  width: 306px;
+  height: 135px;
+  background: #1a1918;
+  position: absolute;
+  border-radius: 15px;
+  left: 47px;
+  top: 90px;
+}
+
+.ex-50 .b {
+  width: 37px;
+  height: 100px;
+  background: #ffffff;
+  position: absolute;
+  border-radius: 12px;
+  left: 55px;
+  top: 118px;
+  box-shadow: 42px 0px 0px #fff, 84px 0px 0px #fff, 126px 0px 0px #fff,
+    168px 0px 0px #fff, 210px 0px 0px #fff, 252px 0px 0px #fff;
+}
+
+.ex-50 .c {
+  width: 20px;
+  height: 50px;
+  background: #1a1918;
+  position: absolute;
+  left: 85px;
+  top: 118px;
+  box-shadow: 42px 0px 0px #1a1918, 126px 0px 0px #1a1918, 168px 0px 0px #1a1918,
+    210px 0px 0px #1a1918;
+}
+
+/* End ex-50*/
+/* Start ex-51 */
+.ex-51 .container {
+  background: #1a1918;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-51 .a {
+  width: 150px;
+  height: 150px;
+  background: #db7e2b;
+  position: absolute;
+  border-radius: 0 100% 100% 100%;
+  left: 47px;
+  top: 90px;
+}
+
+.ex-51 .a::after {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background: #db7e2b;
+  position: absolute;
+  left: 104px;
+  top: 111px;
+  rotate: 45deg;
+}
+
+.ex-51 .b {
+  width: 150px;
+  height: 150px;
+  background: #db7e2b;
+  position: absolute;
+  border-radius: 100% 0 100% 100%;
+  border: 15px solid #1a1918;
+  box-sizing: content-box;
+  left: 175px;
+  top: 75px;
+}
+
+.ex-51 .c {
+  width: 120px;
+  height: 120px;
+  background: #1a1918;
+  position: absolute;
+  border-radius: 100%;
+  left: 15px;
+  top: 15px;
+}
+
+.ex-51 .d {
+  width: 40px;
+  height: 40px;
+  background: #1a1918;
+  border: 11px solid #db7e2b;
+  border-color: #db7e2b #db7e2b transparent transparent;
+  position: absolute;
+  border-radius: 100%;
+  left: 55px;
+  top: 55px;
+  rotate: -45deg;
+}
+
+/* End ex-51 */
+/* Start ex-52 */
+.ex-52 .container {
+  background: #293462;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-52 .a {
+  width: 270px;
+  height: 160px;
+  background: #fd5f54;
+  position: absolute;
+  border-radius: 92px;
+  left: 60px;
+  top: 75px;
+  box-shadow: inset 0px -144px 0 -97px #a64942;
+}
+
+.ex-52 .b {
+  width: 20px;
+  height: 20px;
+  background: #2c365e;
+  position: absolute;
+  border-radius: 100%;
+  left: 164px;
+  top: 147px;
+  z-index: 3;
+  box-shadow: 38px 0px 0 #2c365e;
+}
+
+.ex-52 .c {
+  width: 80px;
+  height: 80px;
+  background: #ffefbc;
+  position: absolute;
+  border: 10px solid #fd5f54;
+  border-radius: 100%;
+  left: 100px;
+  top: 25px;
+}
+
+.ex-52 .c::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #2c365e;
+  position: absolute;
+  border-radius: 100%;
+  left: 20px;
+  top: 20px;
+}
+
+.ex-52 .d {
+  width: 80px;
+  height: 80px;
+  background: #ffefbc;
+  position: absolute;
+  border: 10px solid #fd5f54;
+  border-radius: 100%;
+  left: 208px;
+  top: 25px;
+}
+
+.ex-52 .d::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #2c365e;
+  position: absolute;
+  border-radius: 100%;
+  left: 20px;
+  top: 20px;
+}
+
+/* End ex-52 */
+/* Start ex-53 */
+.ex-53 .container {
+  background: #998236;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-53 .a {
+  width: 180px;
+  height: 180px;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 100%;
+  left: 110px;
+  top: 40px;
+  z-index: 2;
+}
+
+.ex-53 .a::after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background: radial-gradient(
+    circle,
+    #0a2729 0%,
+    #0a2729 35%,
+    #998236 35%,
+    #998236 100%
+  );
+  position: absolute;
+  border-radius: 100%;
+  left: 100px;
+  top: 70px;
+  animation-name: ex-53;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.ex-53 .a::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background: radial-gradient(
+    circle,
+    #0a2729 0%,
+    #0a2729 35%,
+    #998236 35%,
+    #998236 100%
+  );
+  position: absolute;
+  border-radius: 100%;
+  left: 45px;
+  top: 70px;
+  animation-name: ex-53;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes ex-53 {
+  from {
+    box-shadow: inset 1px 61px 0 -71px #1b4342;
+  }
+
+  to {
+    box-shadow: inset 1px 116px 0 -71px #1b4342;
+  }
+}
+
+.ex-53 .b {
+  width: 79px;
+  height: 180px;
+  background: #0b2429;
+  position: absolute;
+  border-radius: 100%;
+  left: 54px;
+  top: 40px;
+  box-shadow: inset 13px 0px 0 0px #1b4342;
+}
+
+.ex-53 .c {
+  width: 79px;
+  height: 180px;
+  background: #0b2429;
+  position: absolute;
+  border-radius: 100%;
+  right: 54px;
+  top: 40px;
+  box-shadow: inset -13px 0px 0 0px #1b4342;
+}
+
+.ex-53 .d {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border: 20px solid;
+  border-color: white white transparent transparent;
+  border-radius: 100%;
+  rotate: -45deg;
+  right: 145px;
+  top: 177px;
+  z-index: 3;
+}
+
+.ex-53 .e {
+  width: 40px;
+  height: 159px;
+  position: absolute;
+  border: 20px solid;
+  border-color: #0b2429;
+  border-radius: 50px;
+  right: 180px;
+  top: 159px;
+  z-index: 3;
+}
+/* End ex-53 */
+
+/* start ex-54 */
+.ex-54 .container {
+  background: #f3ab3c;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-54 .a {
+  width: 180px;
+  height: 180px;
+  background: #998236;
+  position: absolute;
+  border-radius: 100% 100% 140px 140px;
+  left: 110px;
+  top: 40px;
+  z-index: 2;
+  overflow: hidden;
+}
+.ex-54 .a::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #1a4442;
+  position: absolute;
+  rotate: 45deg;
+  left: 60px;
+  top: -41px;
+}
+.ex-54 .b {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle,
+    #1a4442 0%,
+    #1a4442 51%,
+    #998236 35%,
+    #998236 100%
+  );
+  position: absolute;
+  border-radius: 100%;
+  left: 102px;
+  top: 22px;
+}
+.ex-54 .c {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle,
+    #1a4442 0%,
+    #1a4442 51%,
+    #998236 35%,
+    #998236 100%
+  );
+  position: absolute;
+  border-radius: 100%;
+  right: 102px;
+  top: 22px;
+}
+.ex-54 .d {
+  width: 25px;
+  height: 25px;
+  background: #1a4442;
+  position: absolute;
+  border-radius: 100%;
+  right: 230px;
+  top: 115px;
+  z-index: 5;
+  box-shadow: 85px 0px 0 #1a4442;
+}
+.ex-54 .e {
+  width: 100px;
+  height: 35px;
+  background: #fff;
+  position: absolute;
+  border-radius: 20px 20px 61px 60px;
+  right: 150px;
+  top: 168px;
+  z-index: 5;
+}
+.ex-54 .f {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 10px solid;
+  border-color: #1a4442 #1a4442 transparent transparent;
+  border-radius: 100%;
+  right: 195px;
+  rotate: 135deg;
+  top: 157px;
+  z-index: 5;
+}
+.ex-54 .g {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 10px solid;
+  border-color: #1a4442 #1a4442 transparent transparent;
+  border-radius: 100%;
+  right: 165px;
+  rotate: 135deg;
+  top: 157px;
+  z-index: 5;
+}
+.ex-54 .h {
+  content: "";
+  width: 10px;
+  height: 20px;
+  background: #1a4442;
+  position: absolute;
+  right: 195px;
+  top: 157px;
+  z-index: 5;
+}
+/* end ex-54 */
+
+/* Start ex-55 */
+.ex-55 .container {
+  background: #293462;
+  position: relative;
+}
+
+.ex-55 .a {
+  width: 180px;
+  height: 180px;
+  background: #fd5f54;
+  position: absolute;
+  border-radius: 100%;
+  border-radius: 110px 110px 61px 60px;
+  left: 110px;
+  top: 40px;
+  z-index: 2;
+  overflow: hidden;
+}
+.ex-55 .a::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #fff1c2;
+  position: absolute;
+  border-radius: 100%;
+  left: -9px;
+  top: -50px;
+  z-index: 2;
+}
+.ex-55 .a::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #fff1c2;
+  position: absolute;
+  border-radius: 100%;
+  right: -9px;
+  top: -50px;
+  z-index: 2;
+}
+.ex-55 .b {
+  width: 50px;
+  height: 50px;
+  background: #fff1c2;
+  position: absolute;
+  border-radius: 100%;
+  left: 135px;
+  top: 115px;
+  z-index: 2;
+}
+.ex-55 .c {
+  width: 50px;
+  height: 50px;
+  background: #fff1c2;
+  position: absolute;
+  border-radius: 100%;
+  right: 135px;
+  top: 115px;
+  z-index: 2;
+}
+.ex-55 .d {
+  width: 40px;
+  height: 11px;
+  background: #fff1c2;
+  position: absolute;
+  border-radius: 100px;
+  right: 180px;
+  top: 188px;
+  z-index: 2;
+}
+/* End ex-55*/
+
+/* Start ex-56 */
+.ex-56 .container {
+  background: linear-gradient(to right, #f2e09e 50%, #c36371 50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-56 .a {
+  width: 370px;
+  height: 150px;
+  background: #f2e09e;
+  position: absolute;
+  border-radius: 0 0 78px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.ex-56 .b {
+  width: 370px;
+  height: 150px;
+  background: #c36371;
+  position: absolute;
+  border-radius: 78px 0 0 0;
+  left: 30px;
+  top: 150px;
+  z-index: 2;
+}
+.ex-56 .c {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(to bottom, #c36371 50%, #f2e09e 50%);
+  position: absolute;
+  border-radius: 100%;
+  left: 155px;
+  top: 105px;
+  z-index: 2;
+  transition: 1s;
+}
+.ex-56 .c:hover {
+  rotate: 540deg;
+}
+
+/* Start ex-57 */
+.ex-57 .container {
+  background: #191919;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-57 .a {
+  width: 180px;
+  height: 230px;
+  background: #f2ae43;
+  position: absolute;
+  border-radius: 100%;
+  border-radius: 110px 110px 25px 25px;
+  left: 110px;
+  top: 35px;
+  z-index: 2;
+  overflow: hidden;
+}
+.ex-57 .c {
+  width: 180px;
+  height: 230px;
+  background: #824c20;
+  position: absolute;
+  border-radius: 100%;
+  border-radius: 110px 110px 25px 25px;
+  left: 60px;
+  top: 125px;
+  z-index: 5;
+  overflow: hidden;
+}
+.ex-57 .b {
+  width: 180px;
+  height: 230px;
+  background: #e08127;
+  position: absolute;
+  border-radius: 100%;
+  border-radius: 110px 110px 25px 25px;
+  left: -70px;
+  top: 125px;
+  z-index: 5;
+  overflow: hidden;
+}
+.ex-57 .d {
+  width: 60px;
+  height: 60px;
+  background: #fef58e;
+  position: absolute;
+  border-radius: 100%;
+  border-radius: 100%;
+  left: 60px;
+  top: 103px;
+  z-index: 3;
+  transition: 2s;
+  /* box-shadow: 0px -9px 20px #fff; */
+}
+.ex-57 .d:hover {
+  box-shadow: 0px -9px 20px #fff;
+}
+/*End ex-57 */
+
+/* Start ex-58 */
+.ex-58 .container {
+  background: #191919;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-58 .a {
+  width: 70px;
+  height: 70px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: -34px;
+  top: 89px;
+  rotate: -45deg;
+}
+.ex-58 .b {
+  width: 40px;
+  height: 40px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: -20px;
+  top: 104px;
+  rotate: -45deg;
+}
+.ex-58 .c {
+  width: 22px;
+  height: 38px;
+  border: 7px solid;
+  border-color: #e47b23;
+  border-top: 0;
+  border-bottom: 0;
+  position: absolute;
+  left: 14px;
+  top: 86px;
+}
+.ex-58 .c::after {
+  content: "";
+  width: 9px;
+  height: 140px;
+  border: 7px solid;
+  border-color: #e47b23;
+  border-top: 0;
+  border-bottom: 0;
+  position: absolute;
+  left: 43px;
+  top: 0px;
+}
+.ex-58 .c::before {
+  content: "";
+  width: 10px;
+  height: 140px;
+  border: 7px solid;
+  border-color: #e47b23;
+  border-top: 0;
+  border-bottom: 0;
+  position: absolute;
+  left: 92px;
+  top: 0px;
+}
+.ex-58 .d {
+  width: 70px;
+  height: 70px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 15px;
+  top: 52px;
+  rotate: 135deg;
+}
+.ex-58 .d::after {
+  content: "";
+  width: 70px;
+  height: 69px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: -84px;
+  top: -88px;
+}
+.ex-58 .e::after {
+  content: "";
+  width: 38px;
+  height: 40px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: -84px;
+  top: -90px;
+}
+.ex-58 .e {
+  width: 40px;
+  height: 40px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 30px;
+  top: 66px;
+  rotate: 135deg;
+}
+.ex-58 .f {
+  width: 70px;
+  height: 70px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 47%;
+  left: 64px;
+  top: 190px;
+  rotate: -45deg;
+}
+.ex-58 .f::after {
+  content: "";
+  width: 72px;
+  height: 72px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 50%;
+  left: 68px;
+  top: 71px;
+}
+.ex-58 .g {
+  width: 40px;
+  height: 40px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 79px;
+  top: 206px;
+  rotate: -45deg;
+}
+.ex-58 .g::after {
+  content: "";
+  width: 41px;
+  height: 40px;
+  border: 7px solid;
+  border-color: transparent transparent #e47b23 #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 68px;
+  top: 70px;
+}
+.ex-58 .h {
+  width: 20px;
+  height: 140px;
+  border: 7px solid;
+  border-color: #e47b23;
+  border-top: 0;
+  border-bottom: 0;
+  position: absolute;
+  left: 175px;
+  top: 88px;
+}
+.ex-58 .h::after {
+  content: "";
+  width: 11px;
+  height: 54px;
+  border: 7px solid;
+  border-color: #e47b23;
+  border-top: 0;
+  border-bottom: 0;
+  position: absolute;
+  left: 54px;
+  top: 88px;
+}
+.ex-58 .i {
+  width: 100px;
+  height: 97px;
+  border: 7px solid;
+  border-color: transparent transparent transparent #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 235px;
+  top: 130px;
+  rotate: 45deg;
+}
+.ex-58 .j {
+  width: 70px;
+  height: 70px;
+  border: 7px solid;
+  border-color: transparent transparent transparent #e47b23;
+  position: absolute;
+  border-radius: 100%;
+  left: 253px;
+  top: 142px;
+  rotate: 45deg;
+}
+.ex-58 .k {
+  width: 60px;
+  height: 40px;
+  background: #e47b23;
+  position: absolute;
+  border-radius: 10px 50% 50% 10px;
+  left: 270px;
+  top: 122px;
+}
+.ex-58 .k::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #191919;
+  position: absolute;
+  border-radius: 50%;
+  left: 26px;
+  top: 3px;
+}
+.ex-58 .k::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #191919;
+  position: absolute;
+  border-radius: 50%;
+  left: 26px;
+  bottom: 3px;
+}
+/*End ex-58 */
+
+/* Start ex-59 */
+.ex-59 .container {
+  background: #191919;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-59 .a {
+  width: 180px;
+  height: 180px;
+  background: #fd5f54;
+  position: absolute;
+  border-radius: 100% 100% 0 0;
+  left: 110px;
+  top: 40px;
+  z-index: 1;
+}
+.ex-59 .b {
+  width: 212px;
+  height: 117px;
+  background: #a64942;
+  position: absolute;
+  border-radius: 90px 90px 70px 70px;
+  left: 94px;
+  top: 147px;
+  z-index: 2;
+}
+.ex-59 .c {
+  width: 35px;
+  height: 60px;
+  background: #000200;
+  position: absolute;
+  border: 10px solid #fd5f54;
+  border-radius: 50%;
+  left: 122px;
+  top: 36px;
+  rotate: -40deg;
+}
+.ex-59 .d {
+  width: 35px;
+  height: 60px;
+  background: #000200;
+  position: absolute;
+  border: 10px solid #fd5f54;
+  border-radius: 50%;
+  right: 122px;
+  top: 36px;
+  rotate: 40deg;
+}
+.ex-59 .e {
+  width: 30px;
+  height: 50px;
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+  left: 122px;
+  top: 163px;
+  rotate: 40deg;
+  z-index: 3;
+}
+.ex-59 .f {
+  width: 30px;
+  height: 50px;
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+  right: 122px;
+  top: 163px;
+  rotate: -40deg;
+  z-index: 3;
+}
+.ex-59 .g {
+  width: 15px;
+  height: 15px;
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+  right: 145px;
+  top: 120px;
+  z-index: 3;
+}
+.ex-59 .h {
+  width: 15px;
+  height: 15px;
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+  left: 145px;
+  top: 120px;
+  z-index: 3;
+}
+/*End ex-59 */
+
+/* Start ex-60 */
+.ex-60 .container {
+  background: #191919;
+  position: relative;
+  overflow: hidden;
+}
+.ex-60 .a {
+  width: 140px;
+  height: 130px;
+  background: #5077ff;
+  position: absolute;
+  border-radius: 90px 90px 15px 15px;
+  left: 130px;
+  top: 66px;
+}
+.ex-60 .b {
+  width: 100px;
+  height: 50px;
+  background: #5077ff;
+  position: absolute;
+  border-radius: 50px;
+  left: 150px;
+  top: 179px;
+}
+.ex-60 .c {
+  width: 15px;
+  height: 50px;
+  background: #191919;
+  position: absolute;
+  border-radius: 50px;
+  left: 172px;
+  top: 215px;
+  box-shadow: 20px 0px 0 #191919, 40px 0px 0 #191919;
+}
+.ex-60 .d {
+  width: 50px;
+  height: 50px;
+  background: #191919;
+  position: absolute;
+  border-radius: 50px;
+  left: 145px;
+  top: 128px;
+  box-shadow: 60px 0px 0 #191919;
+}
+.ex-60 .e {
+  width: 30px;
+  height: 30px;
+  background: #191919;
+  position: absolute;
+  border-radius: 50px;
+  left: 185px;
+  top: 175px;
+}
+/*End ex-60 */
+
+/* Start ex-61 */
+.ex-61 .container {
+  background: #1b4342;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-61 .a {
+  width: 120px;
+  height: 200px;
+  background: linear-gradient(0deg, #998236 50%, #f1ac3e 50%);
+  position: absolute;
+  border-radius: 24px;
+  left: 120px;
+  top: 81px;
+}
+.ex-61 .a::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #998236;
+  position: absolute;
+  border-radius: 30px;
+  left: 0px;
+  top: 70px;
+  box-shadow: 60px 0 0 #f3ab3e;
+}
+.ex-61 .b {
+  width: 60px;
+  height: 50px;
+  background: #f1ac3e;
+  position: absolute;
+  border-radius: 10px;
+  left: 150px;
+  top: 61px;
+}
+.ex-61 .b::after {
+  content: "";
+  width: 20px;
+  height: 50px;
+  background: #f1ac3e;
+  position: absolute;
+  left: 20px;
+  top: -20px;
+}
+.ex-61 .b::before {
+  content: "";
+  width: 170px;
+  height: 20px;
+  border-radius: 10px;
+  background: #f1ac3e;
+  position: absolute;
+  left: -20px;
+  top: -40px;
+}
+.ex-61 .c {
+  width: 20px;
+  height: 45px;
+  border-radius: 10px;
+  background: #f1ac3e;
+  position: absolute;
+  left: 281px;
+  top: 21px;
+}
+.ex-61 .c::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #998236;
+  position: absolute;
+  border-radius: 30px;
+  left: 0px;
+  top: 60px;
+  box-shadow: 0px 30px 0 #998236;
+}
+/*End ex-61 */
+
+/* Start ex-62 */
+.ex-62 .container {
+  background: #6591ce;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-62 .a {
+  width: 180px;
+  height: 150px;
+  background: #253d83;
+  position: absolute;
+  border-radius: 10px;
+  left: 110px;
+  top: 120px;
+}
+.ex-62 .a::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 85px solid;
+  border-color: #253d83 #253d83 transparent transparent;
+  position: absolute;
+  border-radius: 0;
+  left: 6px;
+  top: -76px;
+  rotate: -45deg;
+}
+.ex-62 .b {
+  width: 120px;
+  height: 10px;
+  background: #edb850;
+  position: absolute;
+  border-radius: 10px;
+  left: 140px;
+  top: 130px;
+}
+.ex-62 .b::after {
+  content: "";
+  width: 60px;
+  height: 70px;
+  background: #edb850;
+  position: absolute;
+  border-radius: 15px 15px 0 0;
+  left: 30px;
+  top: 70px;
+}
+/*End ex-62*/
+
+/* Start ex-63 */
+.ex-63 .container {
+  background: #222222;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-63 .a {
+  width: 134px;
+  height: 40px;
+  background: #f2994a;
+  border-radius: 20px 0 0 20px;
+  position: absolute;
+  left: 80px;
+  top: 82px;
+  rotate: -43deg;
+}
+.ex-63 .b {
+  width: 85px;
+  height: 40px;
+  background: #f2994a;
+  position: absolute;
+  border-radius: 0 8px 0 0;
+  left: 101px;
+  top: 143px;
+  rotate: 43deg;
+}
+.ex-63 .c {
+  width: 85px;
+  height: 40px;
+  background: #2f9cd6;
+  border-radius: 0px 0px 0 8px;
+  position: absolute;
+  left: 188px;
+  top: 129px;
+  rotate: 43deg;
+}
+.ex-63 .d {
+  width: 134px;
+  height: 40px;
+  background: #2f9cd6;
+  position: absolute;
+  border-radius: 0 0 20px;
+  left: 160px;
+  top: 190px;
+  rotate: -47deg;
+}
+/*End ex-63 */
+
+/* Start ex-64 */
+.ex-64 .container {
+  background: #0b2429;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-64 .a {
+  width: 120px;
+  height: 120px;
+  background: #f3ab3c;
+  position: absolute;
+  left: 137px;
+  top: 131px;
+  rotate: 45deg;
+  z-index: 10;
+}
+.ex-64 .a:hover .b {
+  height: 100px;
+  width: 85px;
+}
+.ex-64 .a:hover .c {
+  width: 85px;
+  height: 100px;
+}
+.ex-64 .b {
+  width: 0px;
+  height: 0px;
+  background: #9a8235;
+  position: absolute;
+  transform: skewY(-45deg);
+  rotate: -45deg;
+  right: 113px;
+  top: -25px;
+  transition: 1s;
+}
+.ex-64 .c {
+  width: 0px;
+  height: 0px;
+  background: #1b4342;
+  position: absolute;
+  transform: skewY(45deg);
+  rotate: -45deg;
+  left: -18px;
+  top: -85px;
+  transition: 1s;
+}
+/*End ex-64 */
+
+/* Start ex-65 */
+.ex-65 .container {
+  background: #09052a;
+  position: relative;
+  /* #f6bb9d */
+  overflow: hidden;
+}
+
+.ex-65 .a {
+  width: 90px;
+  height: 90px;
+  background: #09052a;
+  border: 15px solid #e78381;
+  position: absolute;
+  border-radius: 100%;
+  left: 90px;
+  top: 105px;
+  z-index: 5;
+}
+.ex-65 .a::after {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background: #09052a;
+  border: 15px solid #e78381;
+  position: absolute;
+  border-radius: 100%;
+  left: 112px;
+  top: -15px;
+}
+.ex-65 .b {
+  width: 90px;
+  height: 70px;
+  background: #e78381;
+  position: absolute;
+  left: 146px;
+  top: 114px;
+}
+.ex-65 .c {
+  width: 98px;
+  height: 98px;
+  background: #f6bb9d;
+  border: 15px solid #09052a;
+  position: absolute;
+  border-radius: 100%;
+  left: 150px;
+  top: 170px;
+  z-index: 6;
+  animation: ex-65 6s infinite alternate linear ;
+}
+.ex-65 .d {
+  width: 98px;
+  height: 98px;
+  background: #f6bb9d;
+  border: 15px solid #09052a;
+  position: absolute;
+  border-radius: 100%;
+  left: 149px;
+  top: 31px;
+  z-index: 6;
+  animation: ex-65-2 6s infinite alternate linear ;
+}
+
+@keyframes ex-65 {
+  0% {
+    left: -149px;
+  }
+
+  30% {
+    left: 149px;
+  }
+
+  70% {
+    left: 149px;
+  }
+
+  100% {
+    left: 500px;
+  }
+}
+
+@keyframes ex-65-2 {
+  0% {
+    left: 400px;
+  }
+
+  30% {
+    left: 149px;
+  }
+
+  70% {
+    left: 149px;
+  }
+
+  100% {
+    left: -249px;
+  }
+}
+.ex-65 .e {
+  width: 98px;
+  height: 98px;
+  background: #09052a;
+  border: 15px solid #09052a;
+  position: absolute;
+  border-radius: 100%;
+  left: 149px;
+  top: 31px;
+  z-index: 5;
+  box-shadow: 1px 139px 0 #09052a;
+}
+/*End ex-65 */
+
+/* Start ex-53 */
+/* .ex-53 .container {
+  background: #998236;
+  position: relative;
+  overflow: hidden;
+}
+
+.ex-53 .a {
+  width: 180px;
+  height: 180px;
+  background: #1b4342;
+  position: absolute;
+  border-radius: 100%;
+  left: 110px;
+  top: 40px;
+} */
+/*End ex-52 */
