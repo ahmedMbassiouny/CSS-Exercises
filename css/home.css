@@ -40,6 +40,29 @@ body {
   padding: 5px;
 }
 
+.hover {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-shadow: 0 0 10px #fff;
+  animation: hover 2s  infinite linear alternate ;
+  z-index: 100;
+}
+
+@keyframes hover {
+  from{
+    opacity: 100%;
+  }
+
+  to{
+    opacity: 0%;
+  }
+
+}
+
 /* End giobal roles */
 
 /* Start ex-one */
@@ -6839,21 +6862,3 @@ button {
   box-shadow: 1px 139px 0 #09052a;
 }
 /*End ex-65 */
-
-/* Start ex-53 */
-/* .ex-53 .container {
-  background: #998236;
-  position: relative;
-  overflow: hidden;
-}
-
-.ex-53 .a {
-  width: 180px;
-  height: 180px;
-  background: #1b4342;
-  position: absolute;
-  border-radius: 100%;
-  left: 110px;
-  top: 40px;
-} */
-/*End ex-52 */
