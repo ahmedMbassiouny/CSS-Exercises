@@ -48,19 +48,18 @@ body {
   top: 10px;
   left: 10px;
   text-shadow: 0 0 10px #fff;
-  animation: hover 2s  infinite linear alternate ;
+  animation: hover 2s infinite linear alternate;
   z-index: 100;
 }
 
 @keyframes hover {
-  from{
+  from {
     opacity: 100%;
   }
 
-  to{
+  to {
     opacity: 0%;
   }
-
 }
 
 /* End giobal roles */
@@ -5859,6 +5858,7 @@ button {
   top: 159px;
   z-index: 3;
 }
+
 /* End ex-53 */
 
 /* start ex-54 */
@@ -5879,6 +5879,7 @@ button {
   z-index: 2;
   overflow: hidden;
 }
+
 .ex-54 .a::after {
   content: "";
   width: 60px;
@@ -5889,6 +5890,7 @@ button {
   left: 60px;
   top: -41px;
 }
+
 .ex-54 .b {
   width: 80px;
   height: 80px;
@@ -5904,6 +5906,7 @@ button {
   left: 102px;
   top: 22px;
 }
+
 .ex-54 .c {
   width: 80px;
   height: 80px;
@@ -5919,6 +5922,7 @@ button {
   right: 102px;
   top: 22px;
 }
+
 .ex-54 .d {
   width: 25px;
   height: 25px;
@@ -5930,6 +5934,7 @@ button {
   z-index: 5;
   box-shadow: 85px 0px 0 #1a4442;
 }
+
 .ex-54 .e {
   width: 100px;
   height: 35px;
@@ -5940,6 +5945,7 @@ button {
   top: 168px;
   z-index: 5;
 }
+
 .ex-54 .f {
   width: 40px;
   height: 40px;
@@ -5952,6 +5958,7 @@ button {
   top: 157px;
   z-index: 5;
 }
+
 .ex-54 .g {
   width: 40px;
   height: 40px;
@@ -5964,6 +5971,7 @@ button {
   top: 157px;
   z-index: 5;
 }
+
 .ex-54 .h {
   content: "";
   width: 10px;
@@ -5974,6 +5982,7 @@ button {
   top: 157px;
   z-index: 5;
 }
+
 /* end ex-54 */
 
 /* Start ex-55 */
@@ -5994,6 +6003,7 @@ button {
   z-index: 2;
   overflow: hidden;
 }
+
 .ex-55 .a::after {
   content: "";
   width: 100px;
@@ -6005,6 +6015,7 @@ button {
   top: -50px;
   z-index: 2;
 }
+
 .ex-55 .a::before {
   content: "";
   width: 100px;
@@ -6016,6 +6027,7 @@ button {
   top: -50px;
   z-index: 2;
 }
+
 .ex-55 .b {
   width: 50px;
   height: 50px;
@@ -6026,6 +6038,7 @@ button {
   top: 115px;
   z-index: 2;
 }
+
 .ex-55 .c {
   width: 50px;
   height: 50px;
@@ -6036,6 +6049,7 @@ button {
   top: 115px;
   z-index: 2;
 }
+
 .ex-55 .d {
   width: 40px;
   height: 11px;
@@ -6046,6 +6060,7 @@ button {
   top: 188px;
   z-index: 2;
 }
+
 /* End ex-55*/
 
 /* Start ex-56 */
@@ -6065,6 +6080,7 @@ button {
   top: 0px;
   z-index: 2;
 }
+
 .ex-56 .b {
   width: 370px;
   height: 150px;
@@ -6075,6 +6091,7 @@ button {
   top: 150px;
   z-index: 2;
 }
+
 .ex-56 .c {
   width: 90px;
   height: 90px;
@@ -6086,6 +6103,7 @@ button {
   z-index: 2;
   transition: 1s;
 }
+
 .ex-56 .c:hover {
   rotate: 540deg;
 }
@@ -6109,6 +6127,7 @@ button {
   z-index: 2;
   overflow: hidden;
 }
+
 .ex-57 .c {
   width: 180px;
   height: 230px;
@@ -6121,6 +6140,7 @@ button {
   z-index: 5;
   overflow: hidden;
 }
+
 .ex-57 .b {
   width: 180px;
   height: 230px;
@@ -6133,6 +6153,7 @@ button {
   z-index: 5;
   overflow: hidden;
 }
+
 .ex-57 .d {
   width: 60px;
   height: 60px;
@@ -6146,9 +6167,11 @@ button {
   transition: 2s;
   /* box-shadow: 0px -9px 20px #fff; */
 }
+
 .ex-57 .d:hover {
   box-shadow: 0px -9px 20px #fff;
 }
+
 /*End ex-57 */
 
 /* Start ex-58 */
@@ -6169,6 +6192,7 @@ button {
   top: 89px;
   rotate: -45deg;
 }
+
 .ex-58 .b {
   width: 40px;
   height: 40px;
@@ -6180,6 +6204,7 @@ button {
   top: 104px;
   rotate: -45deg;
 }
+
 .ex-58 .c {
   width: 22px;
   height: 38px;
@@ -6191,6 +6216,7 @@ button {
   left: 14px;
   top: 86px;
 }
+
 .ex-58 .c::after {
   content: "";
   width: 9px;
@@ -6203,6 +6229,7 @@ button {
   left: 43px;
   top: 0px;
 }
+
 .ex-58 .c::before {
   content: "";
   width: 10px;
@@ -6215,6 +6242,7 @@ button {
   left: 92px;
   top: 0px;
 }
+
 .ex-58 .d {
   width: 70px;
   height: 70px;
@@ -6226,6 +6254,7 @@ button {
   top: 52px;
   rotate: 135deg;
 }
+
 .ex-58 .d::after {
   content: "";
   width: 70px;
@@ -6237,6 +6266,7 @@ button {
   left: -84px;
   top: -88px;
 }
+
 .ex-58 .e::after {
   content: "";
   width: 38px;
@@ -6248,6 +6278,7 @@ button {
   left: -84px;
   top: -90px;
 }
+
 .ex-58 .e {
   width: 40px;
   height: 40px;
@@ -6259,6 +6290,7 @@ button {
   top: 66px;
   rotate: 135deg;
 }
+
 .ex-58 .f {
   width: 70px;
   height: 70px;
@@ -6270,6 +6302,7 @@ button {
   top: 190px;
   rotate: -45deg;
 }
+
 .ex-58 .f::after {
   content: "";
   width: 72px;
@@ -6281,6 +6314,7 @@ button {
   left: 68px;
   top: 71px;
 }
+
 .ex-58 .g {
   width: 40px;
   height: 40px;
@@ -6292,6 +6326,7 @@ button {
   top: 206px;
   rotate: -45deg;
 }
+
 .ex-58 .g::after {
   content: "";
   width: 41px;
@@ -6303,6 +6338,7 @@ button {
   left: 68px;
   top: 70px;
 }
+
 .ex-58 .h {
   width: 20px;
   height: 140px;
@@ -6314,6 +6350,7 @@ button {
   left: 175px;
   top: 88px;
 }
+
 .ex-58 .h::after {
   content: "";
   width: 11px;
@@ -6326,6 +6363,7 @@ button {
   left: 54px;
   top: 88px;
 }
+
 .ex-58 .i {
   width: 100px;
   height: 97px;
@@ -6337,6 +6375,7 @@ button {
   top: 130px;
   rotate: 45deg;
 }
+
 .ex-58 .j {
   width: 70px;
   height: 70px;
@@ -6348,6 +6387,7 @@ button {
   top: 142px;
   rotate: 45deg;
 }
+
 .ex-58 .k {
   width: 60px;
   height: 40px;
@@ -6357,6 +6397,7 @@ button {
   left: 270px;
   top: 122px;
 }
+
 .ex-58 .k::after {
   content: "";
   width: 15px;
@@ -6367,6 +6408,7 @@ button {
   left: 26px;
   top: 3px;
 }
+
 .ex-58 .k::before {
   content: "";
   width: 15px;
@@ -6377,6 +6419,7 @@ button {
   left: 26px;
   bottom: 3px;
 }
+
 /*End ex-58 */
 
 /* Start ex-59 */
@@ -6396,6 +6439,7 @@ button {
   top: 40px;
   z-index: 1;
 }
+
 .ex-59 .b {
   width: 212px;
   height: 117px;
@@ -6406,6 +6450,7 @@ button {
   top: 147px;
   z-index: 2;
 }
+
 .ex-59 .c {
   width: 35px;
   height: 60px;
@@ -6417,6 +6462,7 @@ button {
   top: 36px;
   rotate: -40deg;
 }
+
 .ex-59 .d {
   width: 35px;
   height: 60px;
@@ -6428,6 +6474,7 @@ button {
   top: 36px;
   rotate: 40deg;
 }
+
 .ex-59 .e {
   width: 30px;
   height: 50px;
@@ -6439,6 +6486,7 @@ button {
   rotate: 40deg;
   z-index: 3;
 }
+
 .ex-59 .f {
   width: 30px;
   height: 50px;
@@ -6450,6 +6498,7 @@ button {
   rotate: -40deg;
   z-index: 3;
 }
+
 .ex-59 .g {
   width: 15px;
   height: 15px;
@@ -6460,6 +6509,7 @@ button {
   top: 120px;
   z-index: 3;
 }
+
 .ex-59 .h {
   width: 15px;
   height: 15px;
@@ -6470,6 +6520,7 @@ button {
   top: 120px;
   z-index: 3;
 }
+
 /*End ex-59 */
 
 /* Start ex-60 */
@@ -6478,6 +6529,7 @@ button {
   position: relative;
   overflow: hidden;
 }
+
 .ex-60 .a {
   width: 140px;
   height: 130px;
@@ -6487,6 +6539,7 @@ button {
   left: 130px;
   top: 66px;
 }
+
 .ex-60 .b {
   width: 100px;
   height: 50px;
@@ -6496,6 +6549,7 @@ button {
   left: 150px;
   top: 179px;
 }
+
 .ex-60 .c {
   width: 15px;
   height: 50px;
@@ -6506,6 +6560,7 @@ button {
   top: 215px;
   box-shadow: 20px 0px 0 #191919, 40px 0px 0 #191919;
 }
+
 .ex-60 .d {
   width: 50px;
   height: 50px;
@@ -6516,6 +6571,7 @@ button {
   top: 128px;
   box-shadow: 60px 0px 0 #191919;
 }
+
 .ex-60 .e {
   width: 30px;
   height: 30px;
@@ -6525,6 +6581,7 @@ button {
   left: 185px;
   top: 175px;
 }
+
 /*End ex-60 */
 
 /* Start ex-61 */
@@ -6543,6 +6600,7 @@ button {
   left: 120px;
   top: 81px;
 }
+
 .ex-61 .a::after {
   content: "";
   width: 60px;
@@ -6554,6 +6612,7 @@ button {
   top: 70px;
   box-shadow: 60px 0 0 #f3ab3e;
 }
+
 .ex-61 .b {
   width: 60px;
   height: 50px;
@@ -6563,6 +6622,7 @@ button {
   left: 150px;
   top: 61px;
 }
+
 .ex-61 .b::after {
   content: "";
   width: 20px;
@@ -6572,6 +6632,7 @@ button {
   left: 20px;
   top: -20px;
 }
+
 .ex-61 .b::before {
   content: "";
   width: 170px;
@@ -6582,6 +6643,7 @@ button {
   left: -20px;
   top: -40px;
 }
+
 .ex-61 .c {
   width: 20px;
   height: 45px;
@@ -6591,6 +6653,7 @@ button {
   left: 281px;
   top: 21px;
 }
+
 .ex-61 .c::after {
   content: "";
   width: 20px;
@@ -6602,6 +6665,7 @@ button {
   top: 60px;
   box-shadow: 0px 30px 0 #998236;
 }
+
 /*End ex-61 */
 
 /* Start ex-62 */
@@ -6620,6 +6684,7 @@ button {
   left: 110px;
   top: 120px;
 }
+
 .ex-62 .a::after {
   content: "";
   width: 0px;
@@ -6632,6 +6697,7 @@ button {
   top: -76px;
   rotate: -45deg;
 }
+
 .ex-62 .b {
   width: 120px;
   height: 10px;
@@ -6641,6 +6707,7 @@ button {
   left: 140px;
   top: 130px;
 }
+
 .ex-62 .b::after {
   content: "";
   width: 60px;
@@ -6651,6 +6718,7 @@ button {
   left: 30px;
   top: 70px;
 }
+
 /*End ex-62*/
 
 /* Start ex-63 */
@@ -6670,6 +6738,7 @@ button {
   top: 82px;
   rotate: -43deg;
 }
+
 .ex-63 .b {
   width: 85px;
   height: 40px;
@@ -6680,6 +6749,7 @@ button {
   top: 143px;
   rotate: 43deg;
 }
+
 .ex-63 .c {
   width: 85px;
   height: 40px;
@@ -6690,6 +6760,7 @@ button {
   top: 129px;
   rotate: 43deg;
 }
+
 .ex-63 .d {
   width: 134px;
   height: 40px;
@@ -6700,6 +6771,7 @@ button {
   top: 190px;
   rotate: -47deg;
 }
+
 /*End ex-63 */
 
 /* Start ex-64 */
@@ -6719,14 +6791,17 @@ button {
   rotate: 45deg;
   z-index: 10;
 }
+
 .ex-64 .a:hover .b {
   height: 100px;
   width: 85px;
 }
+
 .ex-64 .a:hover .c {
   width: 85px;
   height: 100px;
 }
+
 .ex-64 .b {
   width: 0px;
   height: 0px;
@@ -6738,6 +6813,7 @@ button {
   top: -25px;
   transition: 1s;
 }
+
 .ex-64 .c {
   width: 0px;
   height: 0px;
@@ -6749,6 +6825,7 @@ button {
   top: -85px;
   transition: 1s;
 }
+
 /*End ex-64 */
 
 /* Start ex-65 */
@@ -6770,8 +6847,9 @@ button {
   top: 105px;
   z-index: 5;
 }
+
 .ex-65 .a::after {
-  content: '';
+  content: "";
   width: 60px;
   height: 60px;
   background: #09052a;
@@ -6781,6 +6859,7 @@ button {
   left: 112px;
   top: -15px;
 }
+
 .ex-65 .b {
   width: 90px;
   height: 70px;
@@ -6789,6 +6868,7 @@ button {
   left: 146px;
   top: 114px;
 }
+
 .ex-65 .c {
   width: 98px;
   height: 98px;
@@ -6799,8 +6879,9 @@ button {
   left: 150px;
   top: 170px;
   z-index: 6;
-  animation: ex-65 6s infinite alternate linear ;
+  animation: ex-65 6s infinite alternate linear;
 }
+
 .ex-65 .d {
   width: 98px;
   height: 98px;
@@ -6811,7 +6892,7 @@ button {
   left: 149px;
   top: 31px;
   z-index: 6;
-  animation: ex-65-2 6s infinite alternate linear ;
+  animation: ex-65-2 6s infinite alternate linear;
 }
 
 @keyframes ex-65 {
@@ -6849,6 +6930,7 @@ button {
     left: -249px;
   }
 }
+
 .ex-65 .e {
   width: 98px;
   height: 98px;
@@ -6861,4 +6943,445 @@ button {
   z-index: 5;
   box-shadow: 1px 139px 0 #09052a;
 }
+
 /*End ex-65 */
+
+/*Start ex-66 */
+.ex-66 .container {
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.ex-66 .hover {
+  top: 127px;
+  left: 140px;
+}
+
+.ex-66 .a {
+  height: 0;
+  width: 170px;
+  border-bottom: 120px solid #2987e4;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 30px;
+}
+
+.ex-66 .a:before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 10px;
+  background-color: #ffffff;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 120px;
+}
+
+.ex-66 .a:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #2987e4;
+  top: 200px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 50px 50px 0 0;
+}
+
+.ex-66 input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  height: 25px;
+  width: 5px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.ex-66 input[type="checkbox"]:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: -5px;
+  bottom: -2px;
+  z-index: 10;
+}
+
+.ex-66 input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  height: 114px;
+  width: 190px;
+  left: -159px;
+  z-index: -5;
+  clip-path: polygon(12% 0, 88% 0, 100% 100%, 0 100%);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.ex-66 input[type="checkbox"]:checked {
+  height: 40px;
+}
+
+.ex-66 input[type="checkbox"]:checked:before {
+  background: linear-gradient(#ffffff80, transparent);
+}
+
+/*End ex-66 */
+
+/*Start ex-67 */
+.ex-67 .container {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.ex-67 .hover {
+  top: 235px;
+  left: 138px;
+  scale: 0.8;
+  filter: invert();
+}
+.ex-67 .a {
+  height: 20px;
+  width: 20px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: 190px;
+  bottom: 160px;
+  rotate: 0deg;
+  z-index: 3;
+  animation: ex-67 1s infinite linear;
+  animation-play-state: paused;
+}
+
+@keyframes ex-67 {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.ex-67 .a0 {
+  height: 100px;
+  width: 50px;
+  background-color: #fdbf00;
+  border-radius: 55% 45% 100% 0% / 39% 28% 72% 61%;
+  position: absolute;
+}
+
+.ex-67 .a1 {
+  top: -90px;
+  left: 10px;
+}
+
+.ex-67 .a2 {
+  top: -90px;
+  left: 10px;
+  rotate: 120deg;
+  transform-origin: 0px 100px;
+}
+
+.ex-67 .a3 {
+  top: -90px;
+  left: 10px;
+  rotate: 240deg;
+  transform-origin: 0px 100px;
+}
+
+.ex-67 .b {
+  height: 30px;
+  width: 150px;
+  background: #fdbf00;
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  left: 125px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.ex-67 .b::after {
+  content: "";
+  height: 130px;
+  width: 20px;
+  background: #00317e;
+  position: absolute;
+  left: 65px;
+  bottom: 30px;
+}
+
+.ex-67 .c {
+  height: 50px;
+  width: 50px;
+  background: #005fe4;
+  border: 8px solid #00317e;
+  border-radius: 50%;
+  position: absolute;
+  left: 175px;
+  bottom: 145px;
+  z-index: 10;
+}
+
+.ex-67 .c0 {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 20px;
+  background-color: #c30010;
+  position: absolute;
+  bottom: 30px;
+  left: 150px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  z-index: 9;
+}
+
+.ex-67 .c2 {
+  width: 15px;
+  height: 15px;
+  bottom: 7px;
+  left: 165px;
+  border-radius: 50%;
+}
+
+.ex-67 .c3 {
+  width: 15px;
+  height: 15px;
+  bottom: 7px;
+  left: 195px;
+  border-radius: 50%;
+}
+
+.ex-67 .c4 {
+  width: 15px;
+  height: 15px;
+  bottom: 7px;
+  left: 225px;
+  border-radius: 50%;
+}
+
+.ex-67 .c0:checked {
+  background: #00ffd5;
+  box-shadow: 0 0 10px #00ffaf;
+}
+
+.ex-67 .c1:checked {
+  height: 8px;
+  background: #c30000bd;
+  box-shadow: 0 0 10px #e6ff00, 0 0 10px #c30010;
+}
+
+.ex-67 .c0:checked ~ .hover {
+  display: none;
+}
+
+.ex-67 .c1:checked ~ .a {
+  animation-play-state: running;
+  animation-duration: 1s;
+}
+
+.ex-67 .c2:checked ~ .a {
+  animation-play-state: running;
+  animation-duration: 0.7s;
+}
+
+.ex-67 .c3:checked ~ .a {
+  animation-play-state: running;
+  animation-duration: 0.5s;
+}
+
+.ex-67 .c4:checked ~ .a {
+  animation-play-state: running;
+  animation-duration: 0.3s;
+}
+
+/*End ex-67 */
+
+
+/*Start ex-68 */
+.ex-68 .container {
+  background: #621f5e;
+  overflow: hidden;
+  position: relative;
+}
+.ex-68 .hover {
+  top: 233px;
+  left: 219px;
+  scale: 0.8;
+}
+
+.ex-68 .b {
+  height: 30px;
+  width: 150px;
+  background: #030915;
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  left: 202px;
+  bottom: 0px;
+  z-index: 1;
+}
+.ex-68 .b::after {
+  content: "";
+  height: 100px;
+  width: 20px;
+  background: #030915;
+  position: absolute;
+  left: 95px;
+  bottom: 20px;
+  rotate: 20deg;
+}
+.ex-68 .b::before {
+  content: '';
+  height: 40px;
+  width: 40px;
+  background: #ffdc63;
+  border-radius: 50%;
+  position: absolute;
+  left: 106px;
+  bottom: 105px;
+  z-index: 1;
+}
+.ex-68 .c {
+  height: 111px;
+  width: 20px;
+  background: #030915;
+  position: absolute;
+  left: 265px;
+  bottom: 119px;
+  rotate: -47deg;
+}
+.ex-68 .c::after {
+  content: '';
+  height: 40px;
+  width: 40px;
+  background: #ffc537;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  bottom: 101px;
+  z-index: 1;
+}
+.ex-68 .c::before {
+  content: '';
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(87deg ,#621f5e 51% ,#ffc537 50%);
+  border-radius: 50%;
+  position: absolute;
+  left: -97px;
+  bottom: 73px;
+  z-index: 1;
+}
+.ex-68 .d {
+  height: 10px;
+  width: 114px;
+  background: #ffdc63;
+  border-radius: 10px;
+  position: absolute;
+  left: 131px;
+  bottom: 173px;
+  rotate: 40deg;
+}
+
+.ex-68 .e {
+  height: 277px;
+  width: 184px;
+  clip-path: polygon(30% 0, 70% 0, 100% 100%, 0 100%);
+  position: absolute;
+  left: 3px;
+  top: 93px;
+  transition: 0.5s;
+  pointer-events: none;
+  rotate: 40deg;
+  z-index: 5;
+}
+.ex-68 .ck1 {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 20px;
+  background-color: #ffc537;
+  position: absolute;
+  bottom: 30px;
+  left: 230px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  z-index: 9;
+}
+.ex-68 .ck0 {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #ffc537;
+  position: absolute;
+  bottom: 5px;
+  left: 230px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 9;
+}
+.ex-68 .ck2 {
+  left: 250px;
+  background: RED;
+}
+.ex-68 .ck3 {
+  left: 280px;
+  background: blue;
+}
+.ex-68 .ck4 {
+  background-color: green;
+  left: 310px;
+}
+
+.ex-68 .ck1:checked {
+  height: 10px;
+  box-shadow: 0 0 11px #ffa600;
+}
+.ex-68 .ck0:checked {
+  height: 10px;
+  box-shadow: 0 0 11px #ffa600;
+}
+
+.ex-68 .ck1:checked ~ .e {
+  background: linear-gradient(#ffffff80, transparent);
+}
+.ex-68 .ck2:checked ~ .e {
+  background: linear-gradient(RED, #ffffff59);
+}
+
+.ex-68 .ck3:checked ~ .e {
+  background: linear-gradient(blue, #ffffff59);
+}
+
+.ex-68 .ck4:checked ~ .e {
+  background: linear-gradient(green, #ffffff59);
+}
+
+.ex-67 .c0:checked ~ .hover {
+  display: none;
+}
+/*End ex-68 */
