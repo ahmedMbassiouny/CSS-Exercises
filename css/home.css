@@ -8148,3 +8148,15 @@ button {
 }
 
 /*End ex-72 */
+/*Start ex-73 */
+.ex-73 .container{
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to bottom, #000 33%,#fff 33%,#fff 66%,#006e00 66%,#006e00);
+}
+.ex-73 .a{
+  width: 0;
+  height: 100%;
+  border: 151px solid red;
+  border-color: transparent transparent transparent red;}
+/*End ex-73 */
