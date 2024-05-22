@@ -10,5 +10,5 @@
   My Challenges 
 </p>
 
-![url](https://github.com/ahmedMbassiouny/Exercises/blob/main/images/All_Challenges.png)
+![url](https://github.com/ahmedMbassiouny/Exercises/blob/main/images/ALL_Challenges.png)
 
