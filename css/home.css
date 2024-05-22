@@ -16,6 +16,37 @@ body {
   background-color: #152939;
 }
 
+/* START RESPONSIVE STYLE */
+.all-ex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.all-ex>* {
+  margin: auto;
+}
+
+.all-ex::after {
+  display: none;
+}
+
+.all-ex::before {
+  display: none;
+}
+
+/* Span 2 columns for .ex-17 and .ex-20 when screen width allows for at least 2 columns */
+@media (min-width: 800px) {
+
+  /* .ex-17, */
+  .ex-20 {
+    grid-column: span 2;
+  }
+}
+
+/* END RESPONSIVE STYLE */
+
 ::after {
   content: "";
 }
@@ -139,6 +170,7 @@ body {
   font-weight: bold;
 }
 
+/* Start ex-one */
 .one .container {
   background-color: #5d3a3a;
 }
@@ -853,73 +885,81 @@ body {
 .ex-14 .container {
   background: #a6d6ae;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
+
 .ex-14 .a {
-    width: 279px;
-    height: 117px;
-    background: #3a0f09;
-    position: absolute;
-    top: 53%;
-    left: 15%;
+  width: 279px;
+  height: 117px;
+  background: #3a0f09;
+  position: absolute;
+  top: 53%;
+  left: 15%;
 }
+
 .ex-14 .a::after {
-    content: '';
-    border-color: transparent transparent #3a0f09 transparent;
-    border-width: 18px 56px 83px 56px;
-    border-style: solid;
-    position: absolute;
-    top: -152px;
-    left: -21px;
+  content: '';
+  border-color: transparent transparent #3a0f09 transparent;
+  border-width: 18px 56px 83px 56px;
+  border-style: solid;
+  position: absolute;
+  top: -152px;
+  left: -21px;
 }
+
 .ex-14 .a::before {
-    content: '';
-    border-color: transparent transparent #3a0f09 transparent;
-    border-width: 18px 56px 83px 56px;
-    border-style: solid;
-    position: absolute;
-    top: -152px;
-    right: -21px;
+  content: '';
+  border-color: transparent transparent #3a0f09 transparent;
+  border-width: 18px 56px 83px 56px;
+  border-style: solid;
+  position: absolute;
+  top: -152px;
+  right: -21px;
 }
+
 .ex-14 .b {
-    border-color: transparent transparent #3a0f09 transparent;
-    border-width: 18px 72px 52px 72px;
-    border-style: solid;
-    position: absolute;
-    top: 90px;
-    right: 127px;
-    z-index:10;
+  border-color: transparent transparent #3a0f09 transparent;
+  border-width: 18px 72px 52px 72px;
+  border-style: solid;
+  position: absolute;
+  top: 90px;
+  right: 127px;
+  z-index: 10;
 }
+
 .ex-14 .b::before {
-    content: '';
-    width: 70px;
-    height: 56px;
-    background: #3a0f09;
-    position: absolute;
-    top: -1px;
-    left: -141px;
-    box-shadow: 209px 0px 0 #3a0f09;
+  content: '';
+  width: 70px;
+  height: 56px;
+  background: #3a0f09;
+  position: absolute;
+  top: -1px;
+  left: -141px;
+  box-shadow: 209px 0px 0 #3a0f09;
 }
+
 .ex-14 .b::after {
-    content: '';
-    width: 29px;
-    height: 35px;
-    background: #bb9213;
-    border-radius: 15px 15px 0 0;
-    position: absolute;
-    top: 14px;
-    left: -121px;
-    box-shadow: 210px 0px 0 #bb9213;
+  content: '';
+  width: 29px;
+  height: 35px;
+  background: #bb9213;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 14px;
+  left: -121px;
+  box-shadow: 210px 0px 0 #bb9213;
 }
+
 .ex-14 .c {
-    width: 84px;
-    height: 70px;
-    background: #bb9213;
-    border-radius: 40px 40px 0 0;
-    position: absolute;
-    top: 206px;
-left: 158px;
+  width: 84px;
+  height: 70px;
+  background: #bb9213;
+  border-radius: 40px 40px 0 0;
+  position: absolute;
+  top: 206px;
+  left: 158px;
 }
+
 /* Start ex-14 */
 /* Start ex-15 */
 .ex-15 .container {
@@ -1200,7 +1240,6 @@ left: 158px;
 .ex-17 .container {
   position: relative;
   box-shadow: none;
-  width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -1210,6 +1249,11 @@ left: 158px;
   }
 }
 
+.ex-17 .all-c {
+  display: flex;
+
+}
+
 .ex-17 .c-1 {
   width: 110px;
   height: 110px;
@@ -1217,7 +1261,7 @@ left: 158px;
   border-radius: 50%;
   position: absolute;
   top: 40%;
-  left: 33%;
+  right: 50%;
 }
 
 .ex-17 .c-2 {
@@ -1227,7 +1271,7 @@ left: 158px;
   border-radius: 50%;
   position: absolute;
   top: 40%;
-  left: calc(33% + 100px);
+  left: 50%;
 }
 
 .ex-17 .c-1::before {
@@ -1251,8 +1295,8 @@ left: 158px;
   width: 140px;
   border-bottom: 110px solid #000;
   border-radius: 0 0 100% 0;
-  top: -50px;
-  left: 155px;
+  top: -49px;
+  left: 166px;
   transform: rotate(0deg);
   transform-origin: 1px 99px;
   animation: danc-r 1s ease-in-out infinite;
@@ -1924,6 +1968,10 @@ left: 158px;
 
 /* End ex-20 */
 /* start ex-21 */
+.ex-21 {
+  scale: .8;
+}
+
 .ex-21 .container {
   background: rgb(255, 255, 255);
   height: 400px;
@@ -2114,15 +2162,16 @@ left: 158px;
 
 /* End ex-21 */
 /* start ex-22 */
+
+/* .ex-22 {
+  scale: 0.5;
+} */
 .ex-22 .container {
   background: #607d8b;
   position: relative;
-  width: 600px;
-  height: 600px;
-  display: flex;
-  scale: 0.5;
-  margin-top: -80px;
-  margin-bottom: -80px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
 }
 
 .ex-22 .c-1 {
@@ -2159,7 +2208,7 @@ left: 158px;
   position: absolute;
   width: 55%;
   height: 20%;
-  top: 112px;
+  top: 56px;
   z-index: 6;
   left: 22.5%;
   border-radius: 46%;
@@ -2170,7 +2219,7 @@ left: 158px;
   background: linear-gradient(to right, #acacac, #dadadc);
   position: absolute;
   width: 90%;
-  height: 78px;
+  height: 39px;
   top: 11%;
   left: 5%;
   border-radius: 50%;
@@ -2189,14 +2238,14 @@ left: 158px;
 }
 
 .ex-22 .c-4 {
-  width: 160px;
-  height: 192px;
-  border: 25px solid #dcdcdc;
+  width: 80px;
+  height: 96px;
+  border: 12.5px solid #dcdcdc;
   border-radius: 50%;
   z-index: 3;
   position: absolute;
-  top: 196px;
-  right: 58px;
+  top: 98px;
+  right: 29px;
 }
 
 .ex-22 .c-5 {
@@ -2206,8 +2255,8 @@ left: 158px;
   border-radius: 50%;
   z-index: 1;
   position: absolute;
-  top: 342px;
-  right: 24px;
+  top: 172px;
+  right: 5.5%;
 }
 
 .ex-22 .c-5::after {
@@ -2220,20 +2269,28 @@ left: 158px;
   right: 5px;
 }
 
+.ex-22 .c-6 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
 .ex-22 .c-6 span {
   position: relative;
-  margin: 0 2px 50px;
+  margin: 0 3px 5px;
   display: inline-block;
   background: #fff;
-  width: 8px;
-  height: 100px;
+  width: 4px;
+  height: 50px;
   z-index: 5;
-  bottom: 30px;
-  left: 25px;
+  bottom: -9px;
+  left: 19px;
   animation: animate-1 5s linear infinite;
   border-radius: 50%;
   filter: blur(5px);
-  animation-delay: calc(var(--i) * -1.5s);
+  animation-delay: calc(var(--i)* -1.5s);
 }
 
 @keyframes animate-1 {
